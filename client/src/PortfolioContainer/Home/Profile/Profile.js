@@ -51,8 +51,7 @@ export default function Profile() {
               </h1>
             </span>
             <span className="profile-role-tagline">
-            I am a Full-Stack Developer, a Chemist and an Affiliate Business Manager.
-            arikhansylvester@gmail.com
+            I am a Full-Stack Developer.
             </span>
           </div>
 

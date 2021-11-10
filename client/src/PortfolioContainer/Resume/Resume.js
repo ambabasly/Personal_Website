@@ -44,11 +44,11 @@ const Resume = (props) => {
 
   /* STATIC RESUME DATA FOR THE LABELS*/
   const resumeBullets = [
-    { label: "Education", logoSrc: "education.svg" },
     { label: "Work History", logoSrc: "work-history.svg" },
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Projects2", logoSrc: "projects.svg" },
+    { label: "Education", logoSrc: "education.svg" },
   ];
 
   //here we have
@@ -66,7 +66,7 @@ const Resume = (props) => {
       title: "JavaScript App Pokédex",
       duration: { fromDate: "", toDate: "" },
       description:
-      "Pokemon app that lists a variety of Pokemon along with their individual attributes pulling info directly from an ext API",
+        "Pokemon app that lists a variety of Pokemon along with their individual attributes pulling info directly from an ext API",
       subHeading: "Tech Stack: HTML, CSS, Javascript, Boootstrap",
     },
     {
@@ -74,34 +74,20 @@ const Resume = (props) => {
       duration: { fromDate: "", toDate: "" },
       description:
         "The purpose of this project is to create the server-side component of a 'movies' web application, the web application provide users with access to information about various movies, directors, and genres, and are able to sign up, update their personal information, and create a list of their favorite movies.",
-      subHeading: "Tech Stack: Node.js, Express, MongoDB, JavaScript, Heroku, Postman",
+      subHeading:
+        "Tech Stack: Node.js, Express, MongoDB, JavaScript, Heroku, Postman",
     },
     {
       title: "Meet App",
       duration: { fromDate: "", toDate: "" },
       description:
         "This app uses the Google Calendar API to fetch upcoming events and it is built with a serverless, (PWA) with React using (TDD) technique.",
-      subHeading: "Tech Stack: React, Google OAuth2, Amazon Lambda functions for hosting, Enzyme for code testing",
+      subHeading:
+        "Tech Stack: React, Google OAuth2, Amazon Lambda functions for hosting, Enzyme for code testing",
     },
   ];
 
   const resumeDetails = [
-    <div className="resume-screen-container" key="education">
-      <ResumeHeading
-        heading={"Careerfoundry"}
-        subHeading={"Bootcamp"}
-        fromDate={"04.2021"}
-        toDate={"10.2021"}
-      />
-
-      <ResumeHeading
-        heading={"Ambrose Alli University Ekpoma"}
-        subHeading={"Bachelor of Science in Chemistry"}
-        fromDate={"10.2010"}
-        toDate={"10.2014"}
-      />
-    </div>,
-
     /* WORK EXPERIENCE */
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
@@ -113,22 +99,23 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-          - Contributing in the development of web apps, using HTML, CSS, JavaScript.
+            - Contributing in the development of web apps, using HTML, CSS,
+            JavaScript.
           </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-          - Working along with Senior Developers to solving programming tasks.
+            - Working along with Senior Developers to solving programming tasks.
           </span>
           <br />
           <span className="resume-description-text">
-          - Helped in handling workflow as we progress on the development of applications.
+            - Helped in handling workflow as we progress on the development of
+            applications.
           </span>
           <br />
         </div>
       </div>
 
-      
       <div className="experience-container">
         <ResumeHeading
           heading={"Volkswagen Sachsen GmbH Sachsen"}
@@ -138,27 +125,27 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-          - Receiving deliveries of vehicle parts and preparing them for production line.
+            - Receiving deliveries of vehicle parts and preparing them for
+            production line.
           </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-          - Assembling parts ready to be fitted to vehicle.
+            - Assembling parts ready to be fitted to vehicle.
           </span>
           <br />
           <span className="resume-description-text">
-          - Shaping metal sheets that will make up frame of the vehicle.
+            - Shaping metal sheets that will make up frame of the vehicle.
           </span>
           <br />
           <span className="resume-description-text">
-          - Fixing parts to the frame.
+            - Fixing parts to the frame.
           </span>
           <br />
         </div>
       </div>
     </div>,
 
-    
     /* PROGRAMMING SKILLS */
     <div
       className="resume-screen-container programming-skills-container"
@@ -192,24 +179,41 @@ const Resume = (props) => {
       ))}
     </div>,
 
-     /* Project2 */
-     <div className="resume-screen-container" key="project2s">
-     <ResumeHeading
-       heading="Angular App (myFlix)"
-       subHeading="Tech Stack: Angular, Node.js, Angular Materials, GitHub"
-       description="Using Angular, build the client-side for an application called myFlix based on its existing server-side code (REST API and database), with supporting documentation. Users are able to use the app whenever they want to read information about different movies or update their user information."
-     />
-     <ResumeHeading
-       heading="React App (myFlix)"
-       subHeading="Tech Stack: React, Redux, CSS, Javascript, netlify, Axios, Boootstrap"
-       description="Using React, the client-side to build an application called myFlix based on its existing server-side code (REST API and database). A user can access information on movies, directors, genres, and create a profile to save data about his or her favorite movies."
-     />
-     <ResumeHeading
-       heading="React Native Mobile Chat App"
-       subHeading="Tech Stack: React Native, Gifted Chat, Firebase, Expo"
-       description="Using Angular, build the client-side for an application called myFlix based on its existing server-side code (REST API and database), with supporting documentation. Users are able to use the app whenever they want to read information about different movies or update their user information."
-     />
-   </div>,
+    /* Project2 */
+    <div className="resume-screen-container" key="project2s">
+      <ResumeHeading
+        heading="Angular App (myFlix)"
+        subHeading="Tech Stack: Angular, Node.js, Angular Materials, GitHub"
+        description="Using Angular, build the client-side for an application called myFlix based on its existing server-side code (REST API and database), with supporting documentation. Users are able to use the app whenever they want to read information about different movies or update their user information."
+      />
+      <ResumeHeading
+        heading="React App (myFlix)"
+        subHeading="Tech Stack: React, Redux, CSS, Javascript, netlify, Axios, Boootstrap"
+        description="Using React, the client-side to build an application called myFlix based on its existing server-side code (REST API and database). A user can access information on movies, directors, genres, and create a profile to save data about his or her favorite movies."
+      />
+      <ResumeHeading
+        heading="React Native Mobile Chat App"
+        subHeading="Tech Stack: React Native, Gifted Chat, Firebase, Expo"
+        description="Using Angular, build the client-side for an application called myFlix based on its existing server-side code (REST API and database), with supporting documentation. Users are able to use the app whenever they want to read information about different movies or update their user information."
+      />
+    </div>,
+
+    /* EDUCATION */
+    <div className="resume-screen-container" key="education">
+      <ResumeHeading
+        heading={"Careerfoundry"}
+        subHeading={"Bootcamp"}
+        fromDate={"04.2021"}
+        toDate={"10.2021"}
+      />
+
+      <ResumeHeading
+        heading={"Ambrose Alli University Ekpoma"}
+        subHeading={"Bachelor of Science in Chemistry"}
+        fromDate={"10.2010"}
+        toDate={"10.2014"}
+      />
+    </div>,
   ];
 
   const handleCarousal = (index) => {

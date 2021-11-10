@@ -73,7 +73,7 @@ const Resume = (props) => {
       title: "Database App (myFlix)",
       duration: { fromDate: "", toDate: "" },
       description:
-        "The purpose of this project is to create the server-side component of a 'movies' web application, the web application provide users with access to information about various movies, directors, and genres, and are able to sign up, update their personal information, and create a list of their favorite movies.",
+        "Server-side component of a 'movies' web application, the web application provide users with access to information about various movies, directors, and genres, and are able to sign up, update their personal information.",
       subHeading:
         "Tech Stack: Node.js, Express, MongoDB, JavaScript, Heroku, Postman",
     },
@@ -83,7 +83,7 @@ const Resume = (props) => {
       description:
         "This app uses the Google Calendar API to fetch upcoming events and it is built with a serverless, (PWA) with React using (TDD) technique.",
       subHeading:
-        "Tech Stack: React, Google OAuth2, Amazon Lambda functions for hosting, Enzyme for code testing",
+        "Tech Stack: React, Google OAuth2, Amazon Lambda for hosting, Enzyme for code testing",
     },
   ];
 
@@ -138,10 +138,6 @@ const Resume = (props) => {
             - Shaping metal sheets that will make up frame of the vehicle.
           </span>
           <br />
-          <span className="resume-description-text">
-            - Fixing parts to the frame.
-          </span>
-          <br />
         </div>
       </div>
     </div>,
@@ -184,17 +180,17 @@ const Resume = (props) => {
       <ResumeHeading
         heading="Angular App (myFlix)"
         subHeading="Tech Stack: Angular, Node.js, Angular Materials, GitHub"
-        description="Using Angular, build the client-side for an application called myFlix based on its existing server-side code (REST API and database), with supporting documentation. Users are able to use the app whenever they want to read information about different movies or update their user information."
+        description="Client-side for an application called myFlix based on its existing server-side code (REST API and database), with supporting documentation. Users are able to use the app whenever they want to read information about different."
       />
       <ResumeHeading
         heading="React App (myFlix)"
         subHeading="Tech Stack: React, Redux, CSS, Javascript, netlify, Axios, Boootstrap"
-        description="Using React, the client-side to build an application called myFlix based on its existing server-side code (REST API and database). A user can access information on movies, directors, genres, and create a profile to save data about his or her favorite movies."
+        description="Client side of movie app called myFlix based on its existing server-side code (REST API and database). A user can access information on movies, directors, genres, and create a profile to save data about his or her favorite movies."
       />
       <ResumeHeading
         heading="React Native Mobile Chat App"
         subHeading="Tech Stack: React Native, Gifted Chat, Firebase, Expo"
-        description="Using Angular, build the client-side for an application called myFlix based on its existing server-side code (REST API and database), with supporting documentation. Users are able to use the app whenever they want to read information about different movies or update their user information."
+        description="Building a chat app for mobile devices using React Native. The app provide users with a chat interface and options to share images and their location."
       />
     </div>,
 

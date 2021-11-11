@@ -53,6 +53,9 @@ export default function Profile() {
             <span className="profile-role-tagline">
             I am a Full-Stack Developer.
             </span>
+            <a href="https://github.com/ambabasly">
+                <button className="btn highlighted-btn">Check My Code</button>
+              </a>
           </div>
 
           <div className="profile-options">

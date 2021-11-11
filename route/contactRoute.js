@@ -12,16 +12,16 @@ router.post("/contact", (req, res) => {
   }
 
   let smtpTransporter = nodemailer.createTransport({
-    service: "Gmail",
+    service: "Outlook",
     port: 465,
     auth: {
-      user: "meet2cloud@gmail.com",
+      user: "arikhansylvester@outlook.com",
       pass: "Godwin+84",
     },
   });
   let mailOptions = {
     from: data.email,
-    to: "meet2cloud@gmail.com",
+    to: "arikhansylvester@outlook.com",
     subject: `message from ${data.name}`,
     html: `
             <h3>Informations<h3/>

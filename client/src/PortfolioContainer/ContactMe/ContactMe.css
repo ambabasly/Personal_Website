@@ -160,3 +160,27 @@ button .load img {
     font-size: 16px;
   }
 }
+
+footer {
+  background-color: black;
+  height: auto !important;
+  text-align: center;
+  border-style: solid;
+  position: absolute;
+  right: 0;bottom:0;left:0;
+  letter-spacing: 0.2rem;
+  height: 100%;
+  overflow:hidden;
+  clear: both;
+  color: white;
+  margin: 0 auto -42px; /* the bottom margin is the negative value of the footer’s height */ 
+}
+
+.col2 i {
+  padding: 7px;
+  color: #fff;
+}
+
+
+
+

@@ -115,6 +115,21 @@ export default function ContactMe(props) {
         </div>
       </div>
       <Footer />
+      <footer className="footer"><p>Find me on</p>
+        <div className="col2">
+          <div className="social-media">
+            <a href="https://www.linkedin.com/in/sylvester-arikhan-367381157/">
+              <i className="fa fa-linkedin-square"></i>
+            </a>
+            <a href="https://github.com/ambabasly">
+              <i className="fa fa-github"></i>
+            </a>
+            <a href="https://twitter.com/ambabasly">
+              <i className="fa fa-twitter-square"></i>
+            </a>
+          </div>
+        </div> 
+      </footer>
     </div>
   );
 }

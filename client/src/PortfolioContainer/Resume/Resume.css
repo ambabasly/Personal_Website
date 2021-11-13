@@ -142,6 +142,11 @@
   text-align: justify;
 }
 
+description {
+  font-size: 12px;
+  text-align: justify;
+}
+
 .heading-date {
   background-color: #E91E63;
   padding: 4px 12px;
@@ -230,5 +235,11 @@
 
   .selected-bullet {
     width: 100%;
+  }
+
+  .description {
+    font-size: 12px;
+    text-align: justify;
+    width: fit-content;
   }
 }

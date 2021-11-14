@@ -199,6 +199,10 @@ description {
   .resume-bullet-details {
     padding: 0 0 0 70px;
   }
+  resume-screen-container .resume-heading-description .description {
+    width: 414;
+    height: fit-content;
+  }
 }
 
 /* IPAD RESPONSIVENESS */

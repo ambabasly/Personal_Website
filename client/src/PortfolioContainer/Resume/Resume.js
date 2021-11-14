@@ -90,7 +90,7 @@ const Resume = (props) => {
       title: "Database App (myFlix)",
       duration: { fromDate: "", toDate: "" },
       description:
-        "Server-side component of a 'movies' web application, the web application provide users with access to information about various movies, directors, and genres, and are able to sign up, update their personal information.",
+        "Server-side component of a 'movies' web application, the web application provide users with access to information about various movies, directors, and genres.",
       subHeading:
         "Tech Stack: Node.js, Express, MongoDB, JavaScript, Heroku, Postman",
     },
@@ -200,19 +200,19 @@ const Resume = (props) => {
        weblink={'https://ambabasly.github.io/myFlix-Angular-client/welcome'}
         heading="Angular App (myFlix)"
         subHeading="Tech Stack: Angular, Node.js, Angular Materials, GitHub"
-        description="Client-side for an application called myFlix based on its existing server-side code (REST API and database), with supporting documentation. Users are able to use the app whenever they want to read information about different."
+        description="Client-side for an application called myFlix based on its existing server-side code (REST API and database), with supporting documentation."
       />
       <ResumeHeading
        weblink={'https://myflixmovieapp.netlify.app/'}
         heading="React App (myFlix)"
         subHeading="Tech Stack: React, Redux, CSS, Javascript, netlify, Axios, Boootstrap"
-        description="Client side of movie app called myFlix based on its existing server-side code (REST API and database). A user can access information on movies, directors, genres, and create a profile to save data about his or her favorite movies."
+        description="Client side of movie app called myFlix based on its existing server-side code (REST API and database). A user can access information on movies, directors, genres."
       />
       <ResumeHeading
        weblink={'https://www.youtube.com/watch?v=cI2rUnXU8R0'}
         heading="React Native Mobile Chat App"
         subHeading="Tech Stack: React Native, Gifted Chat, Firebase, Expo"
-        description="Building a chat app for mobile devices using React Native. The app provide users with a chat interface and options to share images and their location."
+        description="Building a Chat App for mobile devices using React Native. The app provide users with a chat interface and options to share images and their location."
       />
     </div>,
 

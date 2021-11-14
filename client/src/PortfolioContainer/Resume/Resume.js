@@ -23,7 +23,20 @@ const Resume = (props) => {
       <div className="resume-heading">
         <div className="resume-main-heading">
           <div className="heading-bullet"></div>
-          <span>{props.heading ? props.heading : ""}</span>
+          <span>
+            {
+              props.weblink === undefined ? 
+              props.heading ? props.heading : ""
+              :
+              <a 
+              style={{
+                textDecoration: 'none'
+              }}
+              href={props.weblink} target="_blank" rel="noreferrer">
+                {props.heading}
+              </a>
+            }
+          </span>
           {props.fromDate && props.toDate ? (
             <div className="heading-date">
               {props.fromDate + "-" + props.toDate}
@@ -65,6 +78,7 @@ const Resume = (props) => {
 
   const projectsDetails = [
     {
+      link: "https://ambabasly.github.io/Pokemon-app/",
       title: "JavaScript App Pokédex",
       duration: { fromDate: "", toDate: "" },
       description:
@@ -72,6 +86,7 @@ const Resume = (props) => {
       subHeading: "Tech Stack: HTML, CSS, Javascript, Boootstrap",
     },
     {
+      link: "http://my-flixdbapp.herokuapp.com/documentation.html",
       title: "Database App (myFlix)",
       duration: { fromDate: "", toDate: "" },
       description:
@@ -80,6 +95,7 @@ const Resume = (props) => {
         "Tech Stack: Node.js, Express, MongoDB, JavaScript, Heroku, Postman",
     },
     {
+      link: "https://ambabasly.github.io/meet2/",
       title: "Meet App",
       duration: { fromDate: "", toDate: "" },
       description:
@@ -168,6 +184,7 @@ const Resume = (props) => {
       {projectsDetails.map((projectsDetails, index) => (
         <ResumeHeading
           key={index}
+          weblink={projectsDetails.link}
           heading={projectsDetails.title}
           subHeading={projectsDetails.subHeading}
           description={projectsDetails.description}
@@ -180,16 +197,19 @@ const Resume = (props) => {
     /* Project2 */
     <div className="resume-screen-container" key="project2s">
       <ResumeHeading
+       weblink={'https://ambabasly.github.io/myFlix-Angular-client/welcome'}
         heading="Angular App (myFlix)"
         subHeading="Tech Stack: Angular, Node.js, Angular Materials, GitHub"
         description="Client-side for an application called myFlix based on its existing server-side code (REST API and database), with supporting documentation. Users are able to use the app whenever they want to read information about different."
       />
       <ResumeHeading
+       weblink={'https://myflixmovieapp.netlify.app/'}
         heading="React App (myFlix)"
         subHeading="Tech Stack: React, Redux, CSS, Javascript, netlify, Axios, Boootstrap"
         description="Client side of movie app called myFlix based on its existing server-side code (REST API and database). A user can access information on movies, directors, genres, and create a profile to save data about his or her favorite movies."
       />
       <ResumeHeading
+       weblink={'https://www.youtube.com/watch?v=cI2rUnXU8R0'}
         heading="React Native Mobile Chat App"
         subHeading="Tech Stack: React Native, Gifted Chat, Firebase, Expo"
         description="Building a chat app for mobile devices using React Native. The app provide users with a chat interface and options to share images and their location."

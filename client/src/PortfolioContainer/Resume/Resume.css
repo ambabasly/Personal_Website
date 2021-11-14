@@ -140,9 +140,11 @@
 .resume-heading-description {
   font-size: 12px;
   text-align: justify;
+  list-style-type: none;
+  text-size-adjust: 80%;
 }
 
-description {
+.description {
   font-size: 12px;
   text-align: justify;
 }

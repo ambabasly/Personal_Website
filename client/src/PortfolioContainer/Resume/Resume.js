@@ -83,7 +83,7 @@ const Resume = (props) => {
       duration: { fromDate: "", toDate: "" },
       description:
         "Pokemon app that lists a variety of Pokemon along with their individual attributes pulling info directly from an ext API",
-      subHeading: "Tech Stack: HTML, CSS, Javascript, Boootstrap",
+      subHeading: "Tech Stack: HTML, CSS, JavaScript, Boootstrap",
     },
     {
       link: "http://my-flixdbapp.herokuapp.com/documentation.html",
@@ -204,8 +204,8 @@ const Resume = (props) => {
       />
       <ResumeHeading
        weblink={'https://myflixmovieapp.netlify.app/'}
-        heading="React App (myFlix)"
-        subHeading="Tech Stack: React, Redux, CSS, Javascript, netlify, Axios, Boootstrap"
+        heading="React Movie App (myFlix)"
+        subHeading="Tech Stack: React, Redux, CSS, JavaScript, netlify, Axios, Boootstrap"
         description="Client side of movie app called myFlix based on its existing server-side code (REST API and database). A user can access information on movies, directors, genres."
       />
       <ResumeHeading

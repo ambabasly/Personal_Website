@@ -65,15 +65,15 @@ const Resume = (props) => {
   ];
 
   //here we have
-  const programmingSkillsDetails = [
-    { skill: "JavaScript", ratingPercentage: 60 },
-    { skill: "React JS", ratingPercentage: 50 },
-    { skill: "Node JS", ratingPercentage: 60 },
-    { skill: "SQL", ratingPercentage: 50 },
-    { skill: "HTML", ratingPercentage: 65 },
-    { skill: "CSS", ratingPercentage: 65 },
-    { skill: "Mongo Db", ratingPercentage: 60 },
-    { skill: "React Native", ratingPercentage: 50 },
+  const programmingSkills = [
+    { skill: "JavaScript" },
+    { skill: "React JS" },
+    { skill: "Node JS" },
+    { skill: "SQL" },
+    { skill: "HTML" },
+    { skill: "CSS" },
+    { skill: "Mongo Db"},
+    { skill: "React Native" },
   ];
 
   const projectsDetails = [
@@ -165,7 +165,7 @@ const Resume = (props) => {
       className="resume-screen-container programming-skills-container"
       key="programming-skills"
     >
-      {programmingSkillsDetails.map((skill, index) => (
+      {programmingSkills.map((skill, index) => (
         <div className="skill-parent" key={index}>
           <div className="heading-bullet"></div>
           <span>{skill.skill}</span>

@@ -14,7 +14,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "I am a Full stack web and mobile developer with background knowledge of MERN stacks. I am looking forward to working in a field where I can use my Chemistry, Management, and coding skills.",
+      "I am Full-Stack Web Developer building responsive web and mobile applications using the MERN stack and can work both independently and as part of a team. Very interested in learning new languages and technologies.",
     highlights: {
       bullets: [
         "Full Stack web and mobile development",
@@ -22,6 +22,8 @@ export default function AboutMe(props) {
         "Test Driven Development",
         "Building REST API",
         "SAP (ERP)",
+        "Web Ethics and Data Security",
+        "Documentation and Collaborative Working"
       ],
       heading: "Here are a Few Highlights:",
     },

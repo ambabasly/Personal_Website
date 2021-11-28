@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React, { useEffect } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
@@ -9,6 +10,7 @@ export default function AboutMe(props) {
     if (screen.fadeInScreen !== props.id) return;
     Animations.animations.fadeInScreen(props.id);
   };
+  // eslint-disable-next-line
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 

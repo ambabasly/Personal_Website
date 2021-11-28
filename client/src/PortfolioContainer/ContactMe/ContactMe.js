@@ -16,7 +16,7 @@ export default function ContactMe(props) {
     if (screen.fadeInScreen !== props.id) return;
     Animations.animations.fadeInScreen(props.id);
   };
-
+  // eslint-disable-next-line
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
@@ -114,7 +114,6 @@ export default function ContactMe(props) {
           </form>
         </div>
       </div>
-      <Footer />
       <footer className="footer"><p>Find me on</p>
         <div className="col2">
           <div className="social-media">
@@ -130,6 +129,7 @@ export default function ContactMe(props) {
           </div>
         </div> 
       </footer>
+      <Footer />
     </div>
   );
 }

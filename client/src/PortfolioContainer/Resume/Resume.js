@@ -74,6 +74,8 @@ const Resume = (props) => {
     { skill: "CSS" },
     { skill: "Mongo Db"},
     { skill: "React Native" },
+    { skill: "Angular" },
+    { skill: "Git" },
   ];
 
   const projectsDetails = [

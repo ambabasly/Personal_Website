@@ -127,14 +127,9 @@ export default function ContactMe(props) {
               <i className="fa fa-twitter-square"></i>
             </a>
           </div>
-          <a href="https://github.com/ambabasly">
-            sylvesterarikhan
-            <i className="fa fa-copyright" aria-hidden="true"></i>
-          </a>
-          <span>2021</span>|{" "}
-          <span>
-            <a href="impressum.html">Impressum</a>
-          </span>
+          <i className="fa fa-copyright" aria-hidden="true"></i>
+          <span>Sylvester Arikhan. </span>
+          <span>2021</span>|<span>All rights reserved.</span>
         </div>
       </footer>
       <Footer />

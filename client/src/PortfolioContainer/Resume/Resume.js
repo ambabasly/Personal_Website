@@ -67,7 +67,7 @@ const Resume = (props) => {
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
-    { label: "Case Study", logoSrc: "projects.svg" },
+   /*  { label: "Case Study", logoSrc: "projects.svg" }, */
     { label: "Education", logoSrc: "education.svg" },
   ];
 
@@ -225,7 +225,7 @@ const Resume = (props) => {
       />
     </div>,
 
-    /* CaseStudy */
+    /* CaseStudy 
     <div className="resume-screen-container" key="CaseStudy">
       <ResumeHeading
         weblink={"https://ambabasly.github.io/meet2/"}
@@ -236,7 +236,7 @@ const Resume = (props) => {
         JavaScript | React | TDD | AWS Lambda | HTML | Enzyme | PWA | Jest | Google Calender API |"
         
       />
-    </div>,
+    </div>, */
 
     /* EDUCATION */
     <div className="resume-screen-container" key="education">

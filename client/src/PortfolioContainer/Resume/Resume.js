@@ -24,18 +24,24 @@ const Resume = (props) => {
         <div className="resume-main-heading">
           <div className="heading-bullet"></div>
           <span>
-            {
-              props.weblink === undefined ? 
-              props.heading ? props.heading : ""
-              :
-              <a 
-              style={{
-                textDecoration: 'none'
-              }}
-              href={props.weblink} target="_blank" rel="noreferrer">
+            {props.weblink === undefined ? (
+              props.heading ? (
+                props.heading
+              ) : (
+                ""
+              )
+            ) : (
+              <a
+                style={{
+                  textDecoration: "none",
+                }}
+                href={props.weblink}
+                target="_blank"
+                rel="noreferrer"
+              >
                 {props.heading}
               </a>
-            }
+            )}
           </span>
           {props.fromDate && props.toDate ? (
             <div className="heading-date">
@@ -61,6 +67,7 @@ const Resume = (props) => {
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
+    { label: "Case Study", logoSrc: "projects.svg" },
     { label: "Education", logoSrc: "education.svg" },
   ];
 
@@ -72,7 +79,7 @@ const Resume = (props) => {
     { skill: "SQL" },
     { skill: "HTML" },
     { skill: "CSS" },
-    { skill: "Mongo Db"},
+    { skill: "Mongo Db" },
     { skill: "React Native" },
     { skill: "Angular" },
     { skill: "Git" },
@@ -199,22 +206,35 @@ const Resume = (props) => {
     /* Project2 */
     <div className="resume-screen-container" key="project2s">
       <ResumeHeading
-       weblink={'https://ambabasly.github.io/myFlix-Angular-client/welcome'}
+        weblink={"https://ambabasly.github.io/myFlix-Angular-client/welcome"}
         heading="Angular App (myFlix)"
         subHeading="Tech Stack: Angular, Node.js, Angular Materials, GitHub"
         description="Client-side for an application called myFlix based on its existing server-side code (REST API and database), with supporting documentation."
       />
       <ResumeHeading
-       weblink={'https://myflixmovieapp.netlify.app/'}
+        weblink={"https://myflixmovieapp.netlify.app/"}
         heading="React Movie App (myFlix)"
         subHeading="Tech Stack: React, Redux, CSS, JavaScript, netlify, Axios, Boootstrap"
         description="Client side of movie app called myFlix based on its existing server-side code (REST API and database). A user can access information on movies, directors, genres."
       />
       <ResumeHeading
-       weblink={'https://www.youtube.com/watch?v=cI2rUnXU8R0'}
+        weblink={"https://www.youtube.com/watch?v=cI2rUnXU8R0"}
         heading="React Native Mobile Chat App"
         subHeading="Tech Stack: React Native, Gifted Chat, Firebase, Expo"
         description="Building a Chat App for mobile devices using React Native. The app provide users with a chat interface and options to share images and their location."
+      />
+    </div>,
+
+    /* CaseStudy */
+    <div className="resume-screen-container" key="CaseStudy">
+      <ResumeHeading
+        weblink={"https://ambabasly.github.io/meet2/"}
+        heading="Meet App"
+        description="About
+        Meet is a serverless PWA using Create React App that can display and filter meetup events from the Google calender API. It is developed using Test-Drive-Development techniques to ensure a high test coverage rate."
+        subHeading="Tech Stack: Tech-stack:
+        JavaScript | React | TDD | AWS Lambda | HTML | Enzyme | PWA | Jest | Google Calender API |"
+        
       />
     </div>,
 

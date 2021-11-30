@@ -114,7 +114,7 @@ export default function ContactMe(props) {
           </form>
         </div>
       </div>
-      <footer className="footer"><p>Find me on</p>
+      <footer className="footer">
         <div className="col2">
           <div className="social-media">
             <a href="https://www.linkedin.com/in/sylvester-arikhan-367381157/">
@@ -127,7 +127,15 @@ export default function ContactMe(props) {
               <i className="fa fa-twitter-square"></i>
             </a>
           </div>
-        </div> 
+          <a href="https://github.com/ambabasly">
+            sylvesterarikhan
+            <i className="fa fa-copyright" aria-hidden="true"></i>
+          </a>
+          <span>2021</span>|{" "}
+          <span>
+            <a href="impressum.html">Impressum</a>
+          </span>
+        </div>
       </footer>
       <Footer />
     </div>

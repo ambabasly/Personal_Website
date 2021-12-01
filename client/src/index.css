@@ -100,11 +100,11 @@ body ::-webkit-scrollbar-thumb {
   font-size: 12px;
   background-color: #1f2235;
 }
-/* @media only screen and (max-width: 414px) {
+ @media only screen and (max-width: 414px) {
   .primary-btn {
     font-size: 13px;
   }
-} */
+} 
 
 .primary-btn:hover {
   color: aliceblue;
@@ -132,4 +132,12 @@ body ::-webkit-scrollbar-thumb {
   opacity: 0;
   transform: translateY(80px);
   transition: all 0.8s ease;
+}
+
+
+/*==================== CASE STUDY ====================*/
+.case__img{
+  border-radius: .5rem;
+  justify-self: center;
+  padding: 2rem;
 }

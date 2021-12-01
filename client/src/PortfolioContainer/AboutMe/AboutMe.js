@@ -16,7 +16,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "I am Full-Stack Web Developer building responsive web and mobile applications using the MERN stack and can work both independently and as part of a team. Very interested in learning new languages and technologies.",
+      "I am Full-Stack Web Developer building responsive web and mobile applications using the MERN stack and can work both independently and as part of a team. Very interested in learning new languages and technologies. I'm currently available for full-time, part-time and freelance work.",
     highlights: {
       bullets: [
         "Full Stack web and mobile development",

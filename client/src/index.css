@@ -134,10 +134,3 @@ body ::-webkit-scrollbar-thumb {
   transition: all 0.8s ease;
 }
 
-
-/*==================== CASE STUDY ====================*/
-.case__img{
-  border-radius: .5rem;
-  justify-self: center;
-  padding: 2rem;
-}

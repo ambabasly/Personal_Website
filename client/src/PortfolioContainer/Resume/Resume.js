@@ -67,7 +67,7 @@ const Resume = (props) => {
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
-   /*  { label: "Case Study", logoSrc: "projects.svg" }, */
+   /* { label: "Case Study", logoSrc: "projects.svg" }, */
     { label: "Education", logoSrc: "education.svg" },
   ];
 
@@ -227,9 +227,13 @@ const Resume = (props) => {
 
     /* CaseStudy 
     <div className="resume-screen-container" key="CaseStudy">
+      <div className="meet2">
+          <div className="meet2"></div>
+        </div>
+        <a href="https://github.com/ambabasly">
+              <button className="btn highlighted-btn">Case Study</button>
+            </a>  
       <ResumeHeading
-        weblink={"https://ambabasly.github.io/meet2/"}
-        heading="Meet App"
         description="About
         Meet is a serverless PWA using Create React App that can display and filter meetup events from the Google calender API. It is developed using Test-Drive-Development techniques to ensure a high test coverage rate."
         subHeading="Tech Stack: Tech-stack:

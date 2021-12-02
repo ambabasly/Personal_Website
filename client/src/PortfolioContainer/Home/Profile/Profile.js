@@ -10,7 +10,7 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-            <a href="https://github.com/ambabasly">
+              <a href="https://github.com/ambabasly">
                 <i className="fa fa-github-square"></i>
               </a>
               <a href="https://www.linkedin.com/in/sylvester-arikhan-367381157/">
@@ -24,7 +24,8 @@ export default function Profile() {
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'M <span className="highlighted-text">Sylvester Arikhan</span>
+              Hello, I'M{" "}
+              <span className="highlighted-text">Sylvester Arikhan</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -51,17 +52,21 @@ export default function Profile() {
               </h1>
             </span>
             <span className="profile-role-tagline">
-            I am a Full-Stack Developer.
+              I am a Full-Stack Developer.
             </span>
             <a href="https://github.com/ambabasly">
-                <button className="btn highlighted-btn">Check My Code</button>
-              </a>
+              <button className="btn highlighted-btn">Check My Code</button>
+            </a>
           </div>
 
           <div className="profile-options">
-            <button className="btn primary-btn"
-            onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
-            > Hire Me </button>
+            <button
+              className="btn primary-btn"
+              onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+            >
+              {" "}
+              Hire Me{" "}
+            </button>
             <a href="/slycv.pdf" download="Sylvester CV.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>

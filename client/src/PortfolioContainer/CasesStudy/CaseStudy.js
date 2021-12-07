@@ -88,11 +88,12 @@ const CasesStudy = () => {
                     <div className="card-body">
                       <h3 className="card-title">Angular Front-End</h3>
                       <p className="card-text">
-                        myFlix is a web app, developed using the MERN stack,
-                        that allows users to access information about movies,
-                        directors, and genres. Users are able to login,
-                        register, update their personal data, and create a list
-                        of favorite movies.
+                      Using Angular, I created separate components for the
+                      different views of the application. (Welcome page,
+                      login/registration, movies, genres, directors and user
+                      profile). Angular Material, I implemented logic to
+                      process app requests and direct users to the different
+                      views within the app.
                       </p>
                     </div>
                   </div>

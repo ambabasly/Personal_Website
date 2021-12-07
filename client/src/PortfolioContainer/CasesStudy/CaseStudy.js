@@ -58,10 +58,12 @@ const CasesStudy = () => {
               The objective of the project was to create an interactive and
               entertaining web application for movie lovers who enjoy reading
               information about different movies.</p> 
+
               <p>Backend Objective: The server
               side of the myFlix application should ensure that users have
               access to information about different movies, that their requests
               can be processed and that all necessary data can be stored.</p>
+              
               <p>Frontend Objective: The client side will create the user interface
               through which users will make requests to and receive responses
               from the server side.</p>

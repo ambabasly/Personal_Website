@@ -41,7 +41,7 @@ const CasesStudy = () => {
               <strong>myFlix Overview (Case Study)</strong>
             </h2>
             <p>
-              myFlix is a web application developed with the MERN stack that
+              myFlix is a web application developed with the MERN/MEAN stack that
               allows users to access information about movies, directors, and
               genres. Users can sign in, register, update their personal
               information, and create a list of their favorite movies.

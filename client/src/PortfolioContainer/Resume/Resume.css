@@ -250,24 +250,17 @@
   }
 }
 
-/*
-.meet2 {
-  height: 50%;
-  width: 100%;
-  border-radius: 50%;
-  background-image: url("../../assets/Resume/meet2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .highlighted-btn {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-} */
+  text-align: right;
+} 
 
+.big-btn {
+  background-color: black;
+}
 
 
 

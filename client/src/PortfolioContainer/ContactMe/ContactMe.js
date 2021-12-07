@@ -114,6 +114,7 @@ export default function ContactMe(props) {
           </form>
         </div>
       </div>
+      
       <footer className="footer">
         <div className="col2">
           <div className="social-media">

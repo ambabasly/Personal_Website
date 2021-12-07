@@ -265,6 +265,7 @@ const CasesStudy = () => {
               Redux) worked. Including all the features and Angular materials,
               the learning process and the main features, the whole activity
               took about 2 months. Thanks to this project.</p>
+              
               <p>I became much more familiar with how the RESTful
               architecture works and how the structure of larger projects is
               built. I also learned a lot more about JavaScript and of course

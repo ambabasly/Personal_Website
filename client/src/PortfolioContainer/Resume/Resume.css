@@ -249,15 +249,7 @@
     width: fit-content;
   }
 }
-
-.highlighted-btn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: right;
-} 
-
+/* case study button*/
 .big-btn {
   background-color: black;
 }

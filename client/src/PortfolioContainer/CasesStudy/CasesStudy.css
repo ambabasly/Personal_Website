@@ -1,22 +1,9 @@
-.header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 0 0 0;
-}
 
 .title {
     flex-direction: column;
     text-align: center;
     justify-content: center;
 }
-
-
-.subtitle {
-    text-align: center;
-}
-
 
 .nav__item {
     text-align: right;
@@ -28,11 +15,6 @@
     background-color: #edf5e1;
 }
 
-.portfolio__title {
-    text-align: center;
-    
-    justify-content: left;
-}
 
 .footer {
     background-color: black;
@@ -47,28 +29,10 @@
     color: white;
   }
 
-
-.portfolio__title {
-    font-size: 18px;
-    font-weight: var(--normal-weight);
-    text-align: left;
-    justify-content: left;
-}
-
-
-.caststudyimg {
-    border-radius: .5rem;
-    justify-self: center;
-    padding: 2rem;
-    text-align: right;
-}
-
-
 .projects {
     padding-top: 5rem;
     text-align: center;
 }
-
 
 .projects-card {
     padding-bottom: 20px;
@@ -99,17 +63,12 @@ flip card
   
 .card-flip:hover .card-front {
     transform: rotateY(-180deg);
+    cursor: pointer;
 }
   
 .card-flip:hover .card-back {
     transform: rotateY(0deg);
 }
-
-.tech-widget {
-    color: black;
-    font-size: 12px;
-}
-
 
 .card-text {
     width: 100%;

@@ -33,7 +33,7 @@ const CasesStudy = () => {
 
       {/* Case Study */}
       <div className="body">
-        <div className="about__container container grid">
+      <div className="about__container container grid">
           <div>
             <h1 className="title">MYFLX APPLICATION </h1>
             <br />

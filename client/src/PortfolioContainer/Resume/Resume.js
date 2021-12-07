@@ -228,7 +228,7 @@ const Resume = (props) => {
     /* CaseStudy */
     <div className="resume-screen-container" key="CaseStudy">
       <div>
-      <img src="/reactapp.png" alt="img" style= {{
+      <img src="/Angolar.png" alt="img" style= {{
               height: "18rem", width: "100%", 
             }}/> 
         </div>

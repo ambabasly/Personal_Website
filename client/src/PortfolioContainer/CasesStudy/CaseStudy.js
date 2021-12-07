@@ -18,7 +18,7 @@ const CasesStudy = () => {
           <ul className="nav__list grid">
             <li className="nav__item">
               <a href="index.html" className="nav__link active-link">
-                <i className="uil uil-estate nav__icon" /> Back to home{" "}
+                <i className="uil uil-estate nav__icon" /> <strong>BACK TO HOME</strong>{" "}
                 <span class="sr-only">(current)</span>
               </a>
             </li>

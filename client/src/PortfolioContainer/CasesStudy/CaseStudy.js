@@ -70,6 +70,14 @@ const CasesStudy = () => {
           </div>
         </div>
 
+        <div class="title">
+        <h2>Tech Stack</h2>
+          <h5><strong>
+          Angular | Node.js | Express | MongoDB | React.js | netlify | Angular Material | Heroku | Bootstrap
+          </strong>
+          </h5>
+        </div>
+
         <div className="projects">
           <div className="container">
             <div className="row">

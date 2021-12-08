@@ -141,7 +141,7 @@ const CasesStudy = () => {
                   </div>
                   <div className="card-back bg-white">
                     <div className="card-body">
-                      <h3 className="card-title">MongoDB Database</h3>
+                      <h3 className="card-title">MongoDB</h3>
                       <p className="card-text">
                         I created a RESTful API using Node.js and Express, that
                         interacts with a non-relational database (MongoDB). The

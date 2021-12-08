@@ -73,6 +73,34 @@ const CasesStudy = () => {
         <div className="projects">
           <div className="container">
             <div className="row">
+
+              <div className="col-md-6 projects-card">
+                <div className="card card-flip h-100">
+                  <div className="card-front bg-white">
+                    <div className="card-body">
+                      <img
+                        src="/reactapp.png"
+                        alt="React Native Mobile Chat App"
+                        style={{ width: "100%", height: "90%" }}
+                      />
+                    </div>
+                  </div>
+                  <div className="card-back bg-white">
+                    <div className="card-body">
+                      <h3 className="card-title">React Front-End</h3>
+                      <p className="card-text">
+                        Using React, I created separate components for the
+                        different views of the application. (Welcome page,
+                        login/registration, movies, genres, directors and user
+                        profile). Using React-Router-Dom, I implemented logic to
+                        process app requests and direct users to the different
+                        views within the app.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div className="col-md-6 projects-card">
                 <div className="card card-flip h-100">
                   <div className="card-front bg-white">
@@ -94,6 +122,33 @@ const CasesStudy = () => {
                       profile). Angular Material, I implemented logic to
                       process app requests and direct users to the different
                       views within the app.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-6 projects-card">
+                <div className="card card-flip h-100">
+                  <div className="card-front bg-white">
+                    <div className="card-body">
+                      <img
+                        src="/DB.jpg"
+                        alt="Meet App"
+                        style={{ width: "100%", height: "90%" }}
+                      />
+                    </div>
+                  </div>
+                  <div className="card-back bg-white">
+                    <div className="card-body">
+                      <h3 className="card-title">MongoDB Database</h3>
+                      <p className="card-text">
+                        I created a RESTful API using Node.js and Express, that
+                        interacts with a non-relational database (MongoDB). The
+                        API can be accessed via commonly used HTTP methods like
+                        GET or POST. To retrieve data from and store data in the
+                        database, CRUD methods are used. The API provides movie
+                        information in JSON format.
                       </p>
                     </div>
                   </div>
@@ -149,60 +204,6 @@ const CasesStudy = () => {
                         using common HTTP methods such as GET or POST. Similar
                         methods CRUD can be used to retrieve and store data in a
                         non-relational manner.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-6 projects-card">
-                <div className="card card-flip h-100">
-                  <div className="card-front bg-white">
-                    <div className="card-body">
-                      <img
-                        src="/DB.jpg"
-                        alt="Meet App"
-                        style={{ width: "100%", height: "90%" }}
-                      />
-                    </div>
-                  </div>
-                  <div className="card-back bg-white">
-                    <div className="card-body">
-                      <h3 className="card-title">MongoDB Database</h3>
-                      <p className="card-text">
-                        I created a RESTful API using Node.js and Express, that
-                        interacts with a non-relational database (MongoDB). The
-                        API can be accessed via commonly used HTTP methods like
-                        GET or POST. To retrieve data from and store data in the
-                        database, CRUD methods are used. The API provides movie
-                        information in JSON format.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-6 projects-card">
-                <div className="card card-flip h-100">
-                  <div className="card-front bg-white">
-                    <div className="card-body">
-                      <img
-                        src="/reactapp.png"
-                        alt="React Native Mobile Chat App"
-                        style={{ width: "100%", height: "90%" }}
-                      />
-                    </div>
-                  </div>
-                  <div className="card-back bg-white">
-                    <div className="card-body">
-                      <h3 className="card-title">Client-side</h3>
-                      <p className="card-text">
-                        Using React, I created separate components for the
-                        different views of the application. (Welcome page,
-                        login/registration, movies, genres, directors and user
-                        profile). Using React-Router-Dom, I implemented logic to
-                        process app requests and direct users to the different
-                        views within the app.
                       </p>
                     </div>
                   </div>

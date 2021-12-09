@@ -236,7 +236,7 @@ const Resume = (props) => {
         <p align="center">
             <button className="big-btn" style= {{
                    width: "90%", color: "#E91E63"
-                }}>Case Study</button>
+                }}>CLICK TO OPEN CASE STUDY</button>
             </p>
         </a>  
     </div>, 

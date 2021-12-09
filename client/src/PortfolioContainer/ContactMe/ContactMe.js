@@ -64,6 +64,9 @@ export default function ContactMe(props) {
     }
   };
 
+  const myName = "Sylvester Arikhan";
+  const currentDate = new Date();
+
   return (
     <div className="main-container " id={props.id || ""}>
       <ScreenHeading subHeading={"Lets Keep In Touch"} title={"Contact Me"} />
@@ -128,9 +131,10 @@ export default function ContactMe(props) {
               <i className="fa fa-twitter-square"></i>
             </a>
           </div>
-          <i className="fa fa-copyright" aria-hidden="true"></i>
-          <span>Sylvester Arikhan. </span>
-          <span>2021</span>|<span>All rights reserved.</span>
+          <div>
+          <p> <i className="fa fa-copyright" aria-hidden="true"></i> {myName} {currentDate.getFullYear()} </p>
+          </div>
+          <span>All rights reserved.</span> | <span><a href="/impressum">Impressum</a></span>
         </div>
       </footer>
       <Footer />

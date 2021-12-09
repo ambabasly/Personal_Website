@@ -2,6 +2,9 @@ import React from "react";
 import "./CasesStudy.css";
 
 const CasesStudy = () => {
+  const myName = "Sylvester Arikhan";
+  const currentDate = new Date();
+
   return (
     <div>
       <title>Case Study</title>
@@ -13,13 +16,13 @@ const CasesStudy = () => {
             -light
             bg-success"
       >
-        <span class="navbar-brand mb-0 h1">SYLVESTER ARIKHAN</span>
+        <span className="navbar-brand mb-0 h1">SYLVESTER ARIKHAN</span>
         <div className="nav__menu" id="nav-menu">
           <ul className="nav__list grid">
             <li className="nav__item">
               <a href="index.html" className="nav__link active-link">
                 <i className="uil uil-estate nav__icon" /> BACK TO HOME{" "}
-                <span class="sr-only">(current)</span>
+                <span className="sr-only">(current)</span>
               </a>
             </li>
           </ul>
@@ -32,11 +35,10 @@ const CasesStudy = () => {
       </nav>
 
       {/* Case Study */}
+      <h1 className="title">MYFLX APPLICATION </h1>
       <div className="body">
       <div className="about__container container grid">
           <div>
-            <h1 className="title">MYFLX APPLICATION </h1>
-            <br />
             <h2 className="title">
               <strong>myFlix Overview (Case Study)</strong>
             </h2>
@@ -70,7 +72,7 @@ const CasesStudy = () => {
           </div>
         </div>
 
-        <div class="title">
+        <div className="title">
         <h2>Tech Stack</h2>
           <h5><strong>
           Angular | Node.js | Express | MongoDB | React.js | netlify | Angular Material | Heroku | Bootstrap
@@ -298,10 +300,11 @@ const CasesStudy = () => {
             <a href="https://twitter.com/ambabasly">
               <i className="fa fa-twitter-square"></i>
             </a>
+          </div>  
+          <div>
+            <p> <i className="fa fa-copyright" aria-hidden="true"></i> {myName} {currentDate.getFullYear()} </p>
           </div>
-          <i className="fa fa-copyright" aria-hidden="true"></i>
-          <span>Sylvester Arikhan. </span>
-          <span>2021</span>|<span>All rights reserved.</span>
+          <span>All rights reserved.</span> | <span><a href="/impressum">Impressum</a></span>
         </div>
       </footer>
     </div>

@@ -89,7 +89,6 @@ const Resume = (props) => {
     {
       link: "https://ambabasly.github.io/Pokemon-app/",
       title: "JavaScript App Pokédex",
-      duration: { fromDate: "", toDate: "" },
       description:
         "Pokemon app that lists a variety of Pokemon along with their individual attributes pulling info directly from an ext API",
       subHeading: "Tech Stack: HTML, CSS, JavaScript, Boootstrap",
@@ -97,7 +96,6 @@ const Resume = (props) => {
     {
       link: "http://my-flixdbapp.herokuapp.com/documentation.html",
       title: "Database App (myFlix)",
-      duration: { fromDate: "", toDate: "" },
       description:
         "Server-side component of a 'movies' web application, the web application provide users with access to information about various movies, directors, and genres.",
       subHeading:
@@ -106,7 +104,6 @@ const Resume = (props) => {
     {
       link: "https://ambabasly.github.io/meet2/",
       title: "Meet App",
-      duration: { fromDate: "", toDate: "" },
       description:
         "This app uses the Google Calendar API to fetch upcoming events and it is built with a serverless, (PWA) with React using (TDD) technique.",
       subHeading:
@@ -126,18 +123,11 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            - Contributing in the development of web apps, using HTML, CSS,
-            JavaScript.
-          </span>
-        </div>
-        <div className="experience-description">
-          <span className="resume-description-text">
-            - Working along with Senior Developers to solving programming tasks.
+          ◉ To help real estate customers buy, rent or solve daily problems with their property
           </span>
           <br />
           <span className="resume-description-text">
-            - Helped in handling workflow as we progress on the development of
-            applications.
+          ◉ Helped in handling workflow as we progress on the development of applications
           </span>
           <br />
         </div>
@@ -152,17 +142,11 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            - Receiving deliveries of vehicle parts and preparing them for
-            production line.
-          </span>
-        </div>
-        <div className="experience-description">
-          <span className="resume-description-text">
-            - Assembling parts ready to be fitted to vehicle.
+          ◉ Collaborated in a team of German production workers to secure that the production line is complete
           </span>
           <br />
           <span className="resume-description-text">
-            - Shaping metal sheets that will make up frame of the vehicle.
+          ◉ Shaped metal sheets making up the frame of the vehicle in a specific time
           </span>
           <br />
         </div>
@@ -197,8 +181,6 @@ const Resume = (props) => {
           heading={projectsDetails.title}
           subHeading={projectsDetails.subHeading}
           description={projectsDetails.description}
-          fromDate={projectsDetails.duration.fromDate}
-          toDate={projectsDetails.duration.toDate}
         />
       ))}
     </div>,

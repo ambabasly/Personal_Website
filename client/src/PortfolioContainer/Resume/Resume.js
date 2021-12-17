@@ -68,7 +68,7 @@ const Resume = (props) => {
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Case Study", logoSrc: "projects.svg" }, 
-    { label: "Education", logoSrc: "education.svg" },
+    { label: "Education", logoSrc: "programming-skills.svg" },
   ];
 
   //here we have
@@ -123,7 +123,7 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-          ◉ To help real estate customers buy, rent or solve daily problems with their property
+          ◉ Help real estate customers buy, rent or solve daily problems with their property
           </span>
           <br />
           <span className="resume-description-text">

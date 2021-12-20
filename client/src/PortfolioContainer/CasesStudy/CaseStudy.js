@@ -35,8 +35,7 @@ const CasesStudy = () => {
       </nav>
 
       {/* Case Study */}
-
-      <h1 className="title">MYFLX APPLICATION </h1>
+      <h1 className="title">#</h1>
       <div className="body">
         <div class="container-fluid">
           <div className="about__container container grid ">
@@ -152,7 +151,7 @@ const CasesStudy = () => {
                     <div className="card-back bg-white">
                       <div className="card-body">
                         <h3 className="card-title">React Front-End</h3>
-                        <p className="text-justify">
+                        <p className="text-justify2">
                           Using React, I created separate components for the
                           different views of the application.
                         </p>
@@ -175,7 +174,7 @@ const CasesStudy = () => {
                     <div className="card-back bg-white">
                       <div className="card-body">
                         <h3 className="card-title">Angular Front-End</h3>
-                        <p className="text-justify">
+                        <p className="text-justify2">
                           Using Angular, I created separate components for the
                           different views of the application.
                         </p>
@@ -198,7 +197,7 @@ const CasesStudy = () => {
                     <div className="card-back bg-white">
                       <div className="card-body">
                         <h3 className="card-title">MongoDB</h3>
-                        <p className="text-justify">
+                        <p className="text-justify2">
                           I created a RESTful API using Node.js and Express,
                           that interacts with a non-relational database
                           (MongoDB). The API can be accessed via commonly used
@@ -223,7 +222,7 @@ const CasesStudy = () => {
                     <div className="card-back bg-white">
                       <div className="card-body">
                         <h3 className="card-title">Authentication Logic</h3>
-                        <p className="text-justify">
+                        <p className="text-justify2">
                           An endpoint that allows existing registered users to
                           log in, to implement basic HTTP authentication for
                           login requests.
@@ -247,7 +246,7 @@ const CasesStudy = () => {
                     <div className="card-back bg-white">
                       <div className="card-body">
                         <h3 className="card-title">CRUD operation</h3>
-                        <p className="text-justify">
+                        <p className="text-justify2">
                           Using MongoDB to create a non-relational database and
                           Mongoose to create the business logic. Similar methods
                           CRUD can be used to retrieve and store data in a
@@ -272,7 +271,7 @@ const CasesStudy = () => {
                     <div className="card-back bg-white">
                       <div className="card-body">
                         <h3 className="card-title">Querying Mongoose Models</h3>
-                        <p className="text-justify">
+                        <p className="text-justify2">
                           Using business logic to integrate my app by mapping my
                           database to models that I can use in my REST API
                           methods, whereby allowing Mongoose to interact with
@@ -292,12 +291,12 @@ const CasesStudy = () => {
                 <strong>Challenges</strong>
               </h2>
               <p class="text-justify">
-                Because I haven’t ever worked with a terminal before, it took me a long
-                time to understand how easy it is to use terminals. I enjoyed
-                every stage of the project, but of course challenges are always
-                part of the learning process. I definitely struggled at each
-                stage, for example creating my database with Atlas was a pain
-                for me, but in the end it was really fantastic to learn and
+                Because I haven’t ever worked with a terminal before, it took me
+                a long time to understand how easy it is to use terminals. I
+                enjoyed every stage of the project, but of course challenges are
+                always part of the learning process. I definitely struggled at
+                each stage, for example creating my database with Atlas was a
+                pain for me, but in the end it was really fantastic to learn and
                 understand each process.
               </p>
             </div>

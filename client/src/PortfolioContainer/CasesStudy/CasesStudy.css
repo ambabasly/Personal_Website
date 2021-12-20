@@ -1,77 +1,80 @@
-
 .title {
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    text-indent: 50px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  text-indent: 50px;
 }
 
 .nav__item {
-    text-align: right;
-    position: absolute;
-    right: 0;left:0; 
+  text-align: right;
+  position: absolute;
+  right: 0;
+  left: 0;
 }
 
 .body {
-    background-color: #edf5e1;
-    
+  background-color: #edf5e1;
+  font-size: 2vmin;
 }
-
 
 .footer {
-    background-color: black;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    padding: 2rem;
-    text-align: center;
-    clear: both;
-    position: relative;
-    height: 200px;
-    color: white;
-  }
-
-.projects {
-    padding-top: 5rem;
-    text-align: center;
+  background-color: black;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 2rem;
+  text-align: center;
+  clear: both;
+  position: relative;
+  height: 200px;
+  color: white;
 }
-
-.projects-card {
-    padding-bottom: 20px;
+.credits {
+  text-align: left;
 }
 
 /*
 flip card
 */
-.card-flip > div {
-    backface-visibility: hidden;
-    transition: transform 300ms;
-    transition-timing-function: linear;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    display: flex;
-}
-  
-.card-front {
-    transform: rotateY(0deg);
-}
-  
-.card-back {
-    transform: rotateY(180deg);
-    position: absolute;
-    top: 0;
-}
-  
-.card-flip:hover .card-front {
-    transform: rotateY(-180deg);
-    cursor: pointer;
-}
-  
-.card-flip:hover .card-back {
-    transform: rotateY(0deg);
+
+.projects {
+  padding-top: 5rem;
+  text-align: center;
 }
 
-.credits {
-    text-align: left;
+.projects-card {
+  padding-bottom: 20px;
+}
+
+.card-flip > div {
+  backface-visibility: hidden;
+  transition: transform 300ms;
+  transition-timing-function: linear;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+}
+
+.card-flip:hover .card-front {
+  transform: rotateY(-180deg);
+  cursor: pointer;
+}
+
+.card-flip:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+.text-justify2 {
+  font-size: 2vmin;
 }

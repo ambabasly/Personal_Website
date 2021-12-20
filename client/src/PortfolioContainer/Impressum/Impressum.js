@@ -160,8 +160,8 @@ const Impressum = () => {
               <i className="fa fa-copyright" aria-hidden="true"></i> {myName}{" "}
               {currentDate.getFullYear()}{" "}
             </p>
+            <span>All rights reserved.</span>
           </div>
-          <span>All rights reserved.</span> <span>All rights reserved.</span>
         </div>
       </footer>
     </div>

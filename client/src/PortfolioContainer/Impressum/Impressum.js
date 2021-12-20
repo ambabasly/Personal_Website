@@ -2,9 +2,9 @@ import React from "react";
 import "./Impressum.css";
 
 const Impressum = () => {
-    const myName = "Sylvester Arikhan";
-    const currentDate = new Date();
-    
+  const myName = "Sylvester Arikhan";
+  const currentDate = new Date();
+
   return (
     <div>
       <nav
@@ -32,29 +32,31 @@ const Impressum = () => {
           </div>
         </div>
       </nav>
-      {/*Impressum start*/}  
-      <h2><strong></strong></h2><br />
+      {/*Impressum start*/}
+      <h2>
+        <strong></strong>
+      </h2>
+      <br />
       <div className="body">
-        <div className="about__container container grid">
-              
-              <div className="title">
-              <p>Angaben gemäß § 5 TMG</p>
-              <p>Sylvester Arikhan</p>
-              <p>Freiberg</p>
-              <p>
-                <strong>Vertreten durch: </strong>
-                <br />
-                Sylvester Arikhan 
-              </p>
-              <p>
-                <strong>Kontakt:</strong> E-Mail:{" "}
-                <a href="mailto:sylvesterarikhan@gmail.com">
-                  arikhansylvester@gmail.com
-                </a>
-                <br />
-              </p>
-            <div className="title">Haftungsausschluss: </div>
+        <div className="about__container container grid ">
+          <div className="title">
+            <p>Angaben gemäß § 5 TMG</p>
+            <p>Sylvester Arikhan</p>
+            <p>Freiberg</p>
             <p>
+              <strong>Vertreten durch: </strong>
+              <br />
+              Sylvester Arikhan
+            </p>
+            <p>
+              <strong>Kontakt:</strong> E-Mail:{" "}
+              <a href="mailto:sylvesterarikhan@gmail.com">
+                arikhansylvester@gmail.com
+              </a>
+              <br />
+            </p>
+            <div className="title">Haftungsausschluss: </div>
+            <p class="text-justify">
               <h2 className="title">
                 <strong>Haftung für Inhalte</strong>
               </h2>
@@ -155,7 +157,11 @@ const Impressum = () => {
             </a>
           </div>
           <div>
-            <p> <i className="fa fa-copyright" aria-hidden="true"></i> {myName} {currentDate.getFullYear()} </p>
+            <p>
+              {" "}
+              <i className="fa fa-copyright" aria-hidden="true"></i> {myName}{" "}
+              {currentDate.getFullYear()}{" "}
+            </p>
           </div>
           <span>All rights reserved.</span> <span>All rights reserved.</span>
         </div>

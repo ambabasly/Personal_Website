@@ -2,7 +2,7 @@ import React from "react";
 import "./Impressum.css";
 
 const Impressum = () => {
-  const myName = "Sylvester Arikhan";
+  const myName = "Sylvester Arikhan.";
   const currentDate = new Date();
 
   return (
@@ -156,9 +156,8 @@ const Impressum = () => {
           </div>
           <div>
             <p>
-              {" "}
-              <i className="fa fa-copyright" aria-hidden="true"></i> {myName}{" "}
-              {currentDate.getFullYear()}{" "}
+              <i className="fa fa-copyright" aria-hidden="true"></i> {myName}
+              {currentDate.getFullYear()}
             </p>
             <span>All rights reserved.</span>
           </div>

@@ -2,7 +2,7 @@ import React from "react";
 import "./CasesStudy.css";
 
 const CasesStudy = () => {
-  const myName = "Sylvester Arikhan";
+  const myName = "Sylvester Arikhan.";
   const currentDate = new Date();
 
   return (
@@ -50,9 +50,7 @@ const CasesStudy = () => {
                 information, and create a list of their favorite movies.
               </p>
             </div>
-          </div>
 
-          <div className="about__container container grid ">
             <div>
               <h2 className="text-justify">
                 <strong>Objective</strong>
@@ -69,9 +67,7 @@ const CasesStudy = () => {
                 account information (personal information, favorite movies).
               </p>
             </div>
-          </div>
 
-          <div className="about__container container grid ">
             <div>
               <h2 className="text-justify">
                 <strong>Development</strong>
@@ -122,9 +118,7 @@ const CasesStudy = () => {
               save data about his or her favorite movies, and offcourse delete a
               profile if need be.
             </p>
-          </div>
 
-          <div className="about__container container grid ">
             <div className="title">
               <h2>Tech Stack</h2>
               <h5>
@@ -134,161 +128,160 @@ const CasesStudy = () => {
                 </strong>
               </h5>
             </div>
-          </div>        
-          
 
-          <div className="projects">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-6 projects-card">
-                  <div className="card card-flip h-100">
-                    <div className="card-front bg-white">
-                      <div className="card-body">
-                        <img
-                          src="/reactapp.png"
-                          alt="React Native Mobile Chat App"
-                          style={{ width: "100%", height: "90%" }}
-                        />
+            <div className="projects">
+              <div className="container">
+                <div className="row">
+                  <div className="col-md-6 projects-card">
+                    <div className="card card-flip h-100">
+                      <div className="card-front bg-white">
+                        <div className="card-body">
+                          <img
+                            src="/reactapp.png"
+                            alt="React Native Mobile Chat App"
+                            style={{ width: "100%", height: "90%" }}
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="card-back bg-white">
-                      <div className="card-body">
-                        <h3 className="card-title">React Front-End</h3>
-                        <p className="text-justify2">
-                          Using React, I created separate components for the
-                          different views of the application.
-                        </p>
+                      <div className="card-back bg-white">
+                        <div className="card-body">
+                          <h3 className="card-title">React Front-End</h3>
+                          <p className="text-justify2">
+                            Using React, I created separate components for the
+                            different views of the application.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <div className="col-md-6 projects-card">
-                  <div className="card card-flip h-100">
-                    <div className="card-front bg-white">
-                      <div className="card-body">
-                        <img
-                          src="/Angolar.png"
-                          alt="reactapp"
-                          style={{ width: "100%", height: "90%" }}
-                        />
+                  <div className="col-md-6 projects-card">
+                    <div className="card card-flip h-100">
+                      <div className="card-front bg-white">
+                        <div className="card-body">
+                          <img
+                            src="/Angolar.png"
+                            alt="reactapp"
+                            style={{ width: "100%", height: "90%" }}
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="card-back bg-white">
-                      <div className="card-body">
-                        <h3 className="card-title">Angular Front-End</h3>
-                        <p className="text-justify2">
-                          Using Angular, I created separate components for the
-                          different views of the application.
-                        </p>
+                      <div className="card-back bg-white">
+                        <div className="card-body">
+                          <h3 className="card-title">Angular Front-End</h3>
+                          <p className="text-justify2">
+                            Using Angular, I created separate components for the
+                            different views of the application.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <div className="col-md-6 projects-card">
-                  <div className="card card-flip h-100">
-                    <div className="card-front bg-white">
-                      <div className="card-body">
-                        <img
-                          src="/DB.jpg"
-                          alt="Meet App"
-                          style={{ width: "100%", height: "90%" }}
-                        />
+                  <div className="col-md-6 projects-card">
+                    <div className="card card-flip h-100">
+                      <div className="card-front bg-white">
+                        <div className="card-body">
+                          <img
+                            src="/DB.jpg"
+                            alt="Meet App"
+                            style={{ width: "100%", height: "90%" }}
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="card-back bg-white">
-                      <div className="card-body">
-                        <h3 className="card-title">MongoDB</h3>
-                        <p className="text-justify2">
-                          I created a RESTful API using Node.js and Express,
-                          that interacts with a non-relational database
-                          (MongoDB). The API can be accessed via commonly used
-                          HTTP methods like GET or POST.
-                        </p>
+                      <div className="card-back bg-white">
+                        <div className="card-body">
+                          <h3 className="card-title">MongoDB</h3>
+                          <p className="text-justify2">
+                            I created a RESTful API using Node.js and Express,
+                            that interacts with a non-relational database
+                            (MongoDB). The API can be accessed via commonly used
+                            HTTP methods like GET or POST.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <div className="col-md-6 projects-card">
-                  <div className="card card-flip h-100">
-                    <div className="card-front bg-white">
-                      <div className="card-body">
-                        <img
-                          src="/auth.png"
-                          alt="Database App myFlix"
-                          style={{ width: "100%", height: "90%" }}
-                        />
+                  <div className="col-md-6 projects-card">
+                    <div className="card card-flip h-100">
+                      <div className="card-front bg-white">
+                        <div className="card-body">
+                          <img
+                            src="/auth.png"
+                            alt="Database App myFlix"
+                            style={{ width: "100%", height: "90%" }}
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="card-back bg-white">
-                      <div className="card-body">
-                        <h3 className="card-title">Authentication Logic</h3>
-                        <p className="text-justify2">
-                          An endpoint that allows existing registered users to
-                          log in, to implement basic HTTP authentication for
-                          login requests.
-                        </p>
+                      <div className="card-back bg-white">
+                        <div className="card-body">
+                          <h3 className="card-title">Authentication Logic</h3>
+                          <p className="text-justify2">
+                            An endpoint that allows existing registered users to
+                            log in, to implement basic HTTP authentication for
+                            login requests.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <div className="col-md-6 projects-card">
-                  <div className="card card-flip h-100">
-                    <div className="card-front bg-white">
-                      <div className="card-body">
-                        <img
-                          src="/get.png"
-                          alt="React App (myFlix)"
-                          style={{ width: "100%", height: "90%" }}
-                        />
+                  <div className="col-md-6 projects-card">
+                    <div className="card card-flip h-100">
+                      <div className="card-front bg-white">
+                        <div className="card-body">
+                          <img
+                            src="/get.png"
+                            alt="React App (myFlix)"
+                            style={{ width: "100%", height: "90%" }}
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="card-back bg-white">
-                      <div className="card-body">
-                        <h3 className="card-title">CRUD operation</h3>
-                        <p className="text-justify2">
-                          Using MongoDB to create a non-relational database and
-                          Mongoose to create the business logic. Similar methods
-                          CRUD can be used to retrieve and store data in a
-                          non-relational manner.
-                        </p>
+                      <div className="card-back bg-white">
+                        <div className="card-body">
+                          <h3 className="card-title">CRUD operation</h3>
+                          <p className="text-justify2">
+                            Using MongoDB to create a non-relational database
+                            and Mongoose to create the business logic. Similar
+                            methods CRUD can be used to retrieve and store data
+                            in a non-relational manner.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
 
-                <div className="col-md-6 projects-card">
-                  <div className="card card-flip h-100">
-                    <div className="card-front bg-white">
-                      <div className="card-body">
-                        <img
-                          src="/models.png"
-                          alt="Angular App myFlix"
-                          style={{ width: "100%", height: "90%" }}
-                        />
+                  <div className="col-md-6 projects-card">
+                    <div className="card card-flip h-100">
+                      <div className="card-front bg-white">
+                        <div className="card-body">
+                          <img
+                            src="/models.png"
+                            alt="Angular App myFlix"
+                            style={{ width: "100%", height: "90%" }}
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div className="card-back bg-white">
-                      <div className="card-body">
-                        <h3 className="card-title">Querying Mongoose Models</h3>
-                        <p className="text-justify2">
-                          Using business logic to integrate my app by mapping my
-                          database to models that I can use in my REST API
-                          methods, whereby allowing Mongoose to interact with
-                          these models.
-                        </p>
+                      <div className="card-back bg-white">
+                        <div className="card-body">
+                          <h3 className="card-title">
+                            Querying Mongoose Models
+                          </h3>
+                          <p className="text-justify2">
+                            Using business logic to integrate my app by mapping
+                            my database to models that I can use in my REST API
+                            methods, whereby allowing Mongoose to interact with
+                            these models.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div className="about__container container grid ">
             <div>
               <h2 className="text-justify">
                 <strong>Challenges</strong>
@@ -303,9 +296,7 @@ const CasesStudy = () => {
                 understand each process.
               </p>
             </div>
-          </div>
 
-          <div className="about__container container grid ">
             <div>
               <h2 className="text-justify">
                 <strong>Duration</strong>
@@ -326,6 +317,7 @@ const CasesStudy = () => {
                 famous framework, React and Angular.
               </p>
             </div>
+
             <div className="credits">
               <strong>Credits</strong>
             </div>
@@ -355,12 +347,11 @@ const CasesStudy = () => {
           </div>
           <div>
             <p>
-              {" "}
-              <i className="fa fa-copyright" aria-hidden="true"></i> {myName}{" "}
-              {currentDate.getFullYear()}{" "}
+              <i className="fa fa-copyright" aria-hidden="true"></i> {myName}
+              {currentDate.getFullYear()}
             </p>
           </div>
-          <span>All rights reserved.</span> |{" "}
+          <span>All rights reserved.</span> 
           <span>
             <a href="/impressum">Impressum</a>
           </span>

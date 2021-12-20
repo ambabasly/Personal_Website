@@ -64,7 +64,7 @@ export default function ContactMe(props) {
     }
   };
 
-  const myName = "Sylvester Arikhan";
+  const myName = "Sylvester Arikhan.";
   const currentDate = new Date();
 
   return (

@@ -44,9 +44,7 @@ const Impressum = () => {
             <p>Sylvester Arikhan</p>
             <p>Freiberg</p>
             <p>
-              <strong>Vertreten durch: </strong>
-              <br />
-              Sylvester Arikhan
+              <strong>Vertreten durch: </strong>Sylvester Arikhan
             </p>
             <p>
               <strong>Kontakt:</strong> E-Mail:{" "}

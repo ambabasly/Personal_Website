@@ -69,7 +69,16 @@ flip card
   transform: rotateY(0deg);
 }
 
+.card-body {
+  background-color: black;
+}
+
 .text-justify2 {
   font-size: 2vmin;
+  color: #edf5e1;
+}
+
+.card-title {
+  color: #edf5e1;
 }
 

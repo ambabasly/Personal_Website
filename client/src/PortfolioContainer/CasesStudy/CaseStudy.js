@@ -20,8 +20,9 @@ const CasesStudy = () => {
         <div className="nav__menu" id="nav-menu">
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a href="index.html" className="nav__link active-link">
-                <i className="uil uil-estate nav__icon" /> BACK TO HOME{" "}
+              <a href="/home">
+                <i className="uil uil-estate nav__icon" />{" "}
+                <strong>BACK TO HOME</strong>
                 <span className="sr-only">(current)</span>
               </a>
             </li>
@@ -351,7 +352,7 @@ const CasesStudy = () => {
               {currentDate.getFullYear()}
             </p>
           </div>
-          <span>All rights reserved.</span> 
+          <span>All rights reserved.</span>
           <span>
             <a href="/impressum">Impressum</a>
           </span>

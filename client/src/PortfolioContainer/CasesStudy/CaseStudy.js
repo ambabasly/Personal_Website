@@ -40,9 +40,9 @@ const CasesStudy = () => {
         <div class="container-fluid">
           <div className="about__container container grid ">
             <div>
-              <h2 className="title">
+              <h1 className="text-justify">
                 <strong>myFlix Overview (Case Study)</strong>
-              </h2>
+              </h1>
               <p class="text-justify">
                 myFlix is a web application developed with the MERN/MEAN stack
                 that allows users to access information about movies, directors,
@@ -54,7 +54,7 @@ const CasesStudy = () => {
 
           <div className="about__container container grid ">
             <div>
-              <h2 className="title">
+              <h2 className="text-justify">
                 <strong>Objective</strong>
               </h2>
               <p class="text-justify">
@@ -73,7 +73,7 @@ const CasesStudy = () => {
 
           <div className="about__container container grid ">
             <div>
-              <h2 className="title">
+              <h2 className="text-justify">
                 <strong>Development</strong>
               </h2>
               <p class="text-justify">
@@ -124,15 +124,18 @@ const CasesStudy = () => {
             </p>
           </div>
 
-          <div className="title">
-            <h2>Tech Stack</h2>
-            <h5>
-              <strong>
-                Angular | Node.js | Express | MongoDB | React.js | netlify |
-                Angular Material | Heroku | Bootstrap
-              </strong>
-            </h5>
-          </div>
+          <div className="about__container container grid ">
+            <div className="title">
+              <h2>Tech Stack</h2>
+              <h5>
+                <strong>
+                  Angular | Node.js | Express | MongoDB | React.js | netlify |
+                  Angular Material | Heroku | Bootstrap | Typedoc
+                </strong>
+              </h5>
+            </div>
+          </div>        
+          
 
           <div className="projects">
             <div className="container">
@@ -287,7 +290,7 @@ const CasesStudy = () => {
 
           <div className="about__container container grid ">
             <div>
-              <h2 className="title">
+              <h2 className="text-justify">
                 <strong>Challenges</strong>
               </h2>
               <p class="text-justify">
@@ -304,7 +307,7 @@ const CasesStudy = () => {
 
           <div className="about__container container grid ">
             <div>
-              <h2 className="title">
+              <h2 className="text-justify">
                 <strong>Duration</strong>
               </h2>
               <p class="text-justify">

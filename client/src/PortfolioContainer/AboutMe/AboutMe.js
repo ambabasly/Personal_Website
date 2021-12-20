@@ -14,7 +14,7 @@ export default function AboutMe(props) {
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
-  const SCREEN_CONSTSANTS = {
+  const SCREEN_CONSTANTS = {
     description:
       "I am a Full-Stack Web Developer with experience in JavaScript MERN stack and building responsive web and mobile application and a background in science. Working as a chemist, has provided me the ability to performing quality/assurance, working in a team environment, and putting our customers at the forefront of everything I do. When I started to become a Developer, I came to realize that these skills really help to make a difference in the field. Now I am very interested in learning about Project Management, new technologies and new languages. keeping up team spirit to achieve organisational goals and keep a lasting legacy. I'm currently available for full-time, part-time and freelance work.",
     highlights: {
@@ -31,7 +31,7 @@ export default function AboutMe(props) {
     },
   };
   const renderHighlight = () => {
-    return SCREEN_CONSTSANTS.highlights.bullets.map((value, i) => (
+    return SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (
       <div className="highlight" key={i}>
         <div className="highlight-blob"></div>
         <span>{value}</span>
@@ -50,11 +50,11 @@ export default function AboutMe(props) {
           <div className="about-me-profile"></div>
           <div className="about-me-details">
             <span className="about-me-description">
-              {SCREEN_CONSTSANTS.description}
+              {SCREEN_CONSTANTS.description}
             </span>
             <div className="about-me-highlights">
               <div className="highlight-heading">
-                <span>{SCREEN_CONSTSANTS.highlights.heading}</span>
+                <span>{SCREEN_CONSTANTS.highlights.heading}</span>
               </div>
               {renderHighlight()}
             </div>
@@ -63,8 +63,7 @@ export default function AboutMe(props) {
                 className="btn primary-btn"
                 onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
               >
-                {" "}
-                Hire Me{" "}
+                Hire Me
               </button>
               <a href="/slycv.pdf" download="Sylvester CV.pdf">
                 <button className="btn highlighted-btn">Get My Resume</button>

@@ -292,7 +292,7 @@ const CasesStudy = () => {
                 <strong>Challenges</strong>
               </h2>
               <p class="text-justify">
-                Having never worked with a terminal before, it took me a long
+                Because I haven’t ever worked with a terminal before, it took me a long
                 time to understand how easy it is to use terminals. I enjoyed
                 every stage of the project, but of course challenges are always
                 part of the learning process. I definitely struggled at each

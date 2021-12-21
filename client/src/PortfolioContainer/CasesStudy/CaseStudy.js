@@ -57,12 +57,9 @@ const CasesStudy = () => {
                 <strong>Objective</strong>
               </h2>
               <p class="text-justify">
-                The objective of the project was to create an interactive and
-                entertaining web application for movie lovers who enjoy reading
-                information about different movies. It enables users to create/login 
-                an account, searching movie titles. Read information about a movie, a 
-                director, and the movie genre, Add a movie to a favorites list, 
-                and offcourse update personal profile information.
+              The objective of the project was to create an interactive and entertaining web application 
+              for movie lovers who enjoy reading information about different movies. It enables users to create/login into an account, searching movie titles. 
+              Read information about a movie, a director, movie genre, Add a movie to a favorites list, and of course, update personal profile information.
               </p>
             </div>
 
@@ -79,31 +76,16 @@ const CasesStudy = () => {
             </div>
 
             <p class="text-justify">
-              <strong>Backend Objective:</strong> The server side of the myFlix
-              application should ensure that users have access to information
-              about different movies, that their requests can be processed and
-              that all necessary data can be stored.
+              <strong>Backend Objective:</strong> The purpose of this project is to create the server-side component of a "movies" web application, the web application provide users with access to information about various movies, 
+              directors, and genres, and are able to sign up, update their personal information, and create a list of their favorite movies.
             </p>
             <p class="text-justify">
-              A database needed to be created for storing data and, to this end,
-              MongoDB was chosen. MongoDB is a no-SQL database, meaning that it
-              provides a less rigid structure for creating records. This
-              provides flexibility in terms of change in the schema. Unlike
-              traditional RDBMS systems, where you need to alter the structure
-              of the table if you need a change in the data schema, MongoDB dont
-              need you to alter the structure to make such changes.
+            Creating the database, I opted for a nonrelational database in this case over PostgreSQL, which I initially wanted to use, 
+            reason was that a no-SQL database provides flexibility in terms of change in the schema. Unlike traditional RDBMS systems, 
+            where you need to alter the structure of the table if you need a change in the data schema, MongoDB doesn’t need you to alter the structure to make such changes. 
+            And this whole process of interacting with the database was done using Node.js, a Javascript running environment on the server-side. And of course, integrating the mongoose the business logic that interprets the server. 
             </p>
-            <p class="text-justify">
-              And this logic for interacting with the database was written using
-              Node.js, which is a running environment for executing Javascript
-              on the server-side. Any interaction with the database from the
-              user’s side would have to be translated as a server request
-              handled in the back-end component by Node.js. Before proceeding to
-              develop the front-end component, all the possible user-generated
-              requests were being tested using the Postman tool, which provides
-              the possibility to perform CRUD requests.
-            </p>
-
+           
             <p class="text-justify">
               <strong>Frontend Objective:</strong> The client side will create
               the user interface through which users will make requests to and

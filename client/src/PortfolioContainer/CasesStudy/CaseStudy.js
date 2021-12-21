@@ -87,12 +87,8 @@ const CasesStudy = () => {
             </p>
            
             <p class="text-justify">
-              <strong>Frontend Objective:</strong> The client side will create
-              the user interface through which users will make requests to and
-              receive responses from the server side. A user can access
-              information on movies, directors, genres, and create a profile to
-              save data about his or her favorite movies, and offcourse delete a
-              profile if need be.
+              <strong>Frontend Objective:</strong> The client-side was created using the user interface through which users will make requests to and receive responses from the server-side. A user can access information on movies, directors, 
+              genres, and create a profile to save data about his or her favorite movies, and of course, delete a profile if need be.
             </p>
 
             <div className="title">
@@ -289,8 +285,7 @@ const CasesStudy = () => {
               <p class="text-justify">
                 I became much more familiar with how the RESTful architecture
                 works and how the structure of larger projects is built. I also
-                learned a lot more about JavaScript and of course its most
-                famous framework, React and Angular.
+                learned a lot more about JavaScript and of course it's most framework, React and Angular.
               </p>
             </div>
 

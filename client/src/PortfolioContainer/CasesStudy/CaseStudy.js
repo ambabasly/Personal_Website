@@ -59,13 +59,10 @@ const CasesStudy = () => {
               <p class="text-justify">
                 The objective of the project was to create an interactive and
                 entertaining web application for movie lovers who enjoy reading
-                information about different movies. As with its famous
-                counterpart - the Internet Movie Database/IMDb - this
-                application aimed to enable users to create an account and
-                perform a certain number of actions, apart from searching movie
-                titles. Read detailed information about a movie, a director, or
-                a movie genre, Add a movie to a favorites list, and Modify their
-                account information (personal information, favorite movies).
+                information about different movies. It enables users to create/login 
+                an account, searching movie titles. Read information about a movie, a 
+                director, and the movie genre, Add a movie to a favorites list, 
+                and offcourse update personal profile information.
               </p>
             </div>
 
@@ -74,14 +71,10 @@ const CasesStudy = () => {
                 <strong>Development</strong>
               </h2>
               <p class="text-justify">
-                The project was developed in 3 distinct phases. The first phase
-                involved creating the backend component of the application, that
-                is, the part of the application which deals with communicating
-                with the server and the database for handling tasks such as
-                logging in and accessing the database (viewing, modifying,
-                deleting data), while the other 2 part were being created using
-                React.js for the frontend and again using Angular for the same
-                frontend where users can interact and perform every request.
+              The project was developed in 3 different phases. The first was creating the backend component of the application.  
+              The part of the application that communicates with the server and the database which handles every activity that’s been performed at the frontend, 
+              returning every request the user makes, while the other 2 parts were being created using React.js for the frontend 
+              and again using Angular for the same frontend where users can interact and perform every request.
               </p>
             </div>
 

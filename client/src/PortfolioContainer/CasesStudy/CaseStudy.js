@@ -83,7 +83,7 @@ const CasesStudy = () => {
             Creating the database, I opted for a nonrelational database in this case over PostgreSQL, which I initially wanted to use, 
             reason was that a no-SQL database provides flexibility in terms of change in the schema. Unlike traditional RDBMS systems, 
             where you need to alter the structure of the table if you need a change in the data schema, MongoDB doesn’t need you to alter the structure to make such changes. 
-            And this whole process of interacting with the database was done using Node.js, a Javascript running environment on the server-side. And of course, integrating the mongoose the business logic that interprets the server. 
+            And this whole process of interacting with the database was done using Node.js, a Javascript running environment on the server-side. And of course, integrating the mongoose the business logic. 
             </p>
            
             <p class="text-justify">

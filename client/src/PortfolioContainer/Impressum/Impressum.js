@@ -16,23 +16,17 @@ const Impressum = () => {
             bg-success"
       >
         <span className="navbar-brand mb-0 h1">Impressum</span>
-        <div className="nav__menu" id="nav-menu">
-          <ul className="nav__list grid">
+        <ul className="nav__list grid">
             <li className="nav__item">
               <a href="/home">
-                <i className="uil uil-estate nav__icon" />{" "}
                 <strong>BACK TO HOME</strong>
-                <span className="sr-only">(current)</span>
               </a>
             </li>
           </ul>
-        </div>
         <div className="nav__btns">
-          <div className="nav__toggle" id="nav-toggle">
-            <i className="uil uil-estate nav__icon" />
-          </div>
         </div>
       </nav>
+
       {/*Impressum start*/}
       <h2>
         <strong></strong>

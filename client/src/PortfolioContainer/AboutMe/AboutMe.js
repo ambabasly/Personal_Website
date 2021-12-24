@@ -16,7 +16,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     description:
-      "I am a Full-Stack Web Developer with experience in JavaScript MERN stack and building responsive web and mobile application and a background in science. Working as a chemist, has provided me the ability to performing quality/assurance, working in a team environment, and putting our customers at the forefront of everything I do. When I started to become a Developer, I came to realize that these skills really help to make a difference in the field. Now I am very interested in learning about Project Management, new technologies and new languages. keeping up team spirit to achieve organisational goals and keep a lasting legacy. I'm currently available for full-time, part-time and freelance work.",
+      "I am a Full-Stack Web Developer with experience in JavaScript MERN stack and building responsive web and mobile applications and a background in science. Working as a chemist has provided me the ability to perform quality/assurance, work in a team environment, and put our customers at the forefront of everything I do, keeping up team spirit to achieve organizational goals and keep a lasting legacy. When I started to become a Developer, I came to realize that these skills really help to make a difference in the field. Now I am very interested in learning about Project Management, new technologies, and new languages.",
     highlights: {
       bullets: [
         "Full Stack web and mobile development",

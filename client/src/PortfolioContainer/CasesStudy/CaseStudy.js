@@ -17,26 +17,22 @@ const CasesStudy = () => {
             bg-success"
       >
         <span className="navbar-brand mb-0 h1">SYLVESTER ARIKHAN</span>
-        <div className="nav__menu" id="nav-menu">
           <ul className="nav__list grid">
             <li className="nav__item">
               <a href="/home">
-                <i className="uil uil-estate nav__icon" />{" "}
                 <strong>BACK TO HOME</strong>
-                <span className="sr-only">(current)</span>
               </a>
             </li>
           </ul>
-        </div>
         <div className="nav__btns">
-          <div className="nav__toggle" id="nav-toggle">
-            <i className="uil uil-estate nav__icon" />
-          </div>
         </div>
       </nav>
 
       {/* Case Study */}
-      <h1 className="title">#</h1>
+      <h1>
+        <strong></strong>
+      </h1>
+      <br />
       <div className="body">
         <div class="container-fluid">
           <div className="about__container container grid ">

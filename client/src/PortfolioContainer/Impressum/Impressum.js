@@ -1,5 +1,7 @@
 import React from "react";
 import "./Impressum.css";
+import Navbar from 'react-bootstrap/Navbar'
+import Container from 'react-bootstrap/Container'
 
 const Impressum = () => {
   const myName = "Sylvester Arikhan.";
@@ -7,32 +9,32 @@ const Impressum = () => {
 
   return (
     <div>
-      <nav
+      <Navbar
         className="navbar navbar-expand-lg
             page-header
             fixed-top
             main-navigation
             -light
             bg-success"
-      >
-        <span className="navbar-brand mb-0 h1">Impressum</span>
-        <ul className="nav__list grid">
+      > 
+        <span className="navbar-brand mb-0 h1">SYLVESTER ARIKHAN</span>
+          <ul className="nav__list grid">
             <li className="nav__item">
               <a href="/home">
                 <strong>BACK TO HOME</strong>
               </a>
             </li>
-          </ul>
-        <div className="nav__btns">
-        </div>
-      </nav>
+          </ul> 
+      </Navbar>
 
       {/*Impressum start*/}
+      
       <h2>
         <strong></strong>
       </h2>
       <br />
-      <div className="body">
+      <div>
+      <Container>
         <div className="about__container container grid ">
           <div className="title">
             <p>Angaben gemäß § 5 TMG</p>
@@ -134,7 +136,9 @@ const Impressum = () => {
             </h4>
           </div>
         </div>
+        </Container>
       </div>
+      
       {/* FOOTER */}
       <footer className="footer">
         <div className="col2">

@@ -1,5 +1,6 @@
 import React from "react";
 import "./CasesStudy.css";
+import Navbar from 'react-bootstrap/Navbar'
 
 const CasesStudy = () => {
   const myName = "Sylvester Arikhan.";
@@ -7,15 +8,14 @@ const CasesStudy = () => {
 
   return (
     <div>
-      <title>Case Study</title>
-      <nav
+      <Navbar
         className="navbar navbar-expand-lg
             page-header
             fixed-top
             main-navigation
             -light
             bg-success"
-      >
+      > 
         <span className="navbar-brand mb-0 h1">SYLVESTER ARIKHAN</span>
           <ul className="nav__list grid">
             <li className="nav__item">
@@ -23,11 +23,9 @@ const CasesStudy = () => {
                 <strong>BACK TO HOME</strong>
               </a>
             </li>
-          </ul>
-        <div className="nav__btns">
-        </div>
-      </nav>
-
+          </ul> 
+      </Navbar>
+      
       {/* Case Study */}
       <h1>
         <strong></strong>

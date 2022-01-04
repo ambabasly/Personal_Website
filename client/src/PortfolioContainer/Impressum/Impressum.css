@@ -1,7 +1,5 @@
-.body {
-  justify-content: center;
-  padding: 2rem;
-  font-size: 18px;
+.title {
+  text-align: center;
 }
 
 .footer {
@@ -17,6 +15,3 @@
   color: white;
 }
 
-.title {
-  text-align: center;
-}

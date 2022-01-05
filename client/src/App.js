@@ -13,6 +13,7 @@ function App() {
       <Routes>
         {/* this handles the casestudy route */}
         <Route path="/casestudy" element={<CasesStudy />} />
+        {/* this handles the impressum route */}
         <Route path="/impressum" element={<Impressum />} />
         {/* this handels the index route */}
         <Route path="/" element={<PortfolioContainer />} />

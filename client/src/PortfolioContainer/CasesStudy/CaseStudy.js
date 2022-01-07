@@ -28,13 +28,14 @@ const CasesStudy = () => {
       
       {/* Case Study */}
       <h1>
-        <strong></strong>
       </h1>
       <br />
       <div className="body">
         <div class="container-fluid">
           <div className="about__container container grid ">
             <div>
+            <h2>
+            </h2><br />
               <h1 className="text-justify">
                 <strong>myFlix Overview (Case Study)</strong>
               </h1>

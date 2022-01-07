@@ -68,7 +68,7 @@ const Resume = (props) => {
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Case Study", logoSrc: "projects.svg" }, 
-    { label: "Education", logoSrc: "programming-skills.svg" },
+    /*{ label: "Education", logoSrc: "programming-skills.svg" },*/
   ];
 
   //here we have

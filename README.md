@@ -3,7 +3,7 @@ Personal Profile Website built with React.js
 
 # Getting Started with Create React App
 
-<a href="https://portfoliosa.herokuapp.com/">link here!</a>
+<a href="https://arikhan.herokuapp.com/">link here!</a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

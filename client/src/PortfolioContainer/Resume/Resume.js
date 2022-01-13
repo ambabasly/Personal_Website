@@ -116,6 +116,21 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
+          heading={"Gestalt Robotics Berlin"}
+          subHeading={"Software Developer"}
+          fromDate={"02.2022"}
+          toDate={"Present"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+          ◉ Development, integration and testing of users interfaces for software in industrial applications
+          </span>
+          <br />
+        </div>
+      </div>
+
+      <div className="experience-container">
+        <ResumeHeading
           heading={"LocaaTech"}
           subHeading={"Junior Developer (Intern Remote)."}
           fromDate={"06.2020"}
@@ -137,7 +152,7 @@ const Resume = (props) => {
         <ResumeHeading
           heading={"Volkswagen Sachsen GmbH Sachsen"}
           subHeading={"Working Student."}
-          fromDate={"12.020"}
+          fromDate={"12.2020"}
           toDate={"06.2020"}
         />
         <div className="experience-description">

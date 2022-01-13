@@ -147,25 +147,6 @@ const Resume = (props) => {
           <br />
         </div>
       </div>
-
-      <div className="experience-container">
-        <ResumeHeading
-          heading={"Volkswagen Sachsen GmbH Sachsen"}
-          subHeading={"Working Student."}
-          fromDate={"12.2020"}
-          toDate={"06.2020"}
-        />
-        <div className="experience-description">
-          <span className="resume-description-text">
-          ◉ Collaborated in a team of German production workers to secure that the production line is complete
-          </span>
-          <br />
-          <span className="resume-description-text">
-          ◉ Shaped metal sheets making up the frame of the vehicle in a specific time
-          </span>
-          <br />
-        </div>
-      </div>
     </div>,
 
     /* PROGRAMMING SKILLS */

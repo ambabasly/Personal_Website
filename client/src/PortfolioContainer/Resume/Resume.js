@@ -117,7 +117,7 @@ const Resume = (props) => {
       <div className="experience-container">
         <ResumeHeading
           heading={"Gestalt Robotics Berlin"}
-          subHeading={"Software Developer"}
+          subHeading={"Software Engr."}
           fromDate={"02.2022"}
           toDate={"Present"}
         />

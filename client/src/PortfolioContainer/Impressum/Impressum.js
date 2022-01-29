@@ -44,8 +44,8 @@ const Impressum = () => {
               </p>
               <p>
                 <strong>Kontakt:</strong> E-Mail:{" "}
-                <a href="mailto:sylvesterarikhan@gmail.com">
-                  arikhansylvester@gmail.com
+                <a href="mailto:sylvesterarikhano@gmail.com">
+                sylvesterarikhano@gmail.com 
                 </a>
                 <br />
               </p>

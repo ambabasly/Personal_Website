@@ -73,12 +73,11 @@ flip card
   background-color: black;
 }
 
-.text-justify2 {
-  font-size: 2vmin;
+.card-title {
   color: #edf5e1;
 }
 
-.card-title {
-  color: #edf5e1;
+.text-justify {
+  font-size: 16;
 }
 

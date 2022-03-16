@@ -31,14 +31,14 @@ const CasesStudy = () => {
       </h1>
       <br />
       <div className="body">
-        <div class="container-fluid">
+        <div className="container-fluid">
           <div className="about__container container grid ">
             <div>
             <br />
               <h1 className="text-justify">
                 <strong>myFlix Overview (Case Study)</strong>
               </h1>
-              <p class="text-justify">
+              <p className="text-justify">
                 myFlix is a web application developed with the MERN/MEAN stack
                 that allows users to access information about movies, directors,
                 and genres. Users can sign in, register, update their personal
@@ -50,7 +50,7 @@ const CasesStudy = () => {
               <h2 className="text-justify">
                 <strong>Objective</strong>
               </h2>
-              <p class="text-justify">
+              <p className="text-justify">
               The objective of the project was to create an interactive and entertaining web application 
               for movie lovers who enjoy reading information about different movies. It enables users to create/login into an account, searching movie titles. 
               Read information about a movie, a director, movie genre, Add a movie to a favorites list, and of course, update personal profile information.
@@ -61,7 +61,7 @@ const CasesStudy = () => {
               <h2 className="text-justify">
                 <strong>Development</strong>
               </h2>
-              <p class="text-justify">
+              <p className="text-justify">
               The project was developed in 3 different phases. The first was creating the backend component of the application.  
               The part of the application that communicates with the server and the database which handles every activity that’s been performed at the frontend, 
               returning every request the user makes, while the other 2 parts were being created using React.js for the frontend 
@@ -69,18 +69,18 @@ const CasesStudy = () => {
               </p>
             </div>
 
-            <p class="text-justify">
+            <p className="text-justify">
               <strong>Backend Objective:</strong> The purpose of this project is to create the server-side component of a "movies" web application, the web application provide users with access to information about various movies, 
               directors, and genres, and are able to sign up, update their personal information, and create a list of their favorite movies.
             </p>
-            <p class="text-justify">
+            <p className="text-justify">
             Creating the database, I opted for a nonrelational database in this case over PostgreSQL, which I initially wanted to use, 
             reason was that a no-SQL database provides flexibility in terms of change in the schema. Unlike traditional RDBMS systems, 
             where you need to alter the structure of the table if you need a change in the data schema, MongoDB doesn’t need you to alter the structure to make such changes. 
             And this whole process of interacting with the database was done using Node.js, a Javascript running environment on the server-side. And of course, integrating the mongoose the business logic. 
             </p>
            
-            <p class="text-justify">
+            <p className="text-justify">
               <strong>Frontend Objective:</strong> The client-side was created using the user interface through which users will make requests to and receive responses from the server-side. A user can access information on movies, directors, 
               genres, and create a profile to save data about his or her favorite movies, and of course, delete a profile if need be.
             </p>
@@ -252,7 +252,7 @@ const CasesStudy = () => {
               <h2 className="text-justify">
                 <strong>Challenges</strong>
               </h2>
-              <p class="text-justify">
+              <p className="text-justify">
                 Because I haven’t ever worked with a terminal before, it took me
                 a long time to understand how easy it is to use terminals. I
                 enjoyed every stage of the project, but of course challenges are
@@ -267,7 +267,7 @@ const CasesStudy = () => {
               <h2 className="text-justify">
                 <strong>Duration</strong>
               </h2>
-              <p class="text-justify">
+              <p className="text-justify">
                 Developing the client side using both React and Angular
                 frameworks took me twice as long as completing the server side.
                 This was because I needed time to fully understand how React
@@ -276,7 +276,7 @@ const CasesStudy = () => {
                 activity took about 2 months. Thanks to this project.
               </p>
 
-              <p class="text-justify">
+              <p className="text-justify">
                 I became much more familiar with how the RESTful architecture
                 works and how the structure of larger projects is built. I also
                 learned a lot more about JavaScript and of course it's most framework, React and Angular.

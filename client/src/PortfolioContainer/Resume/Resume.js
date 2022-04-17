@@ -77,11 +77,11 @@ const Resume = (props) => {
     { skill: "React JS" },
     { skill: "Node JS" },
     { skill: "SQL" },
-    { skill: "HTML" },
-    { skill: "SCSS" },
+    { skill: "Angular" },
+    { skill: "HTML SCSS" },
     { skill: "Mongo Db" },
     { skill: "React Native" },
-    { skill: "Angular" },
+    { skill: "Docker" },
     { skill: "Git" },
   ];
 

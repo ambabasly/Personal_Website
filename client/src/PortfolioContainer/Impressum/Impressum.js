@@ -38,7 +38,7 @@ const Impressum = () => {
             <br />
               <p>Angaben gemäß § 5 TMG</p>
               <p>Sylvester Arikhan</p>
-              <p>Freiberg</p>
+              <p>Berlin</p>
               <p>
                 <strong>Vertreten durch: </strong>Sylvester Arikhan
               </p>

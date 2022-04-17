@@ -78,7 +78,7 @@ const Resume = (props) => {
     { skill: "Node JS" },
     { skill: "SQL" },
     { skill: "Angular" },
-    { skill: "HTML SCSS" },
+    { skill: "HTML and SCSS" },
     { skill: "Mongo Db" },
     { skill: "React Native" },
     { skill: "Docker" },

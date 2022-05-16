@@ -36,21 +36,21 @@ const Impressum = () => {
           <div className="about__container container grid ">  
             <div className="title">
             <br />
-              <p>Angaben gemäß § 5 TMG</p>
-              <p>Sylvester Arikhan</p>
-              <p>Berlin</p>
-              <p>
+              <div>Angaben gemäß § 5 TMG</div>
+              <div>Sylvester Arikhan</div>
+              <div>Berlin</div>
+              <div>
                 <strong>Vertreten durch: </strong>Sylvester Arikhan
-              </p>
-              <p>
+              </div>
+              <div>
                 <strong>Kontakt:</strong> E-Mail:{" "}
                 <a href="mailto:sylvesterarikhano@gmail.com">
                 sylvesterarikhano@gmail.com 
                 </a>
                 <br />
-              </p>
+              </div>
               <div className="title">Haftungsausschluss: </div>
-              <p class="text-justify">
+              <div className="text-justify">
                 <h2 className="title">
                   <strong>Haftung für Inhalte</strong>
                 </h2>
@@ -123,7 +123,7 @@ const Impressum = () => {
                 sich ausdrücklich rechtliche Schritte im Falle der unverlangten
                 Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
                 <br />
-              </p>
+              </div>
               <h4 className="title">
                 <br />
                 Website Impressum erstellt durch{" "}

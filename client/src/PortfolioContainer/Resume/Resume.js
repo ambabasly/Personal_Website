@@ -116,7 +116,7 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Name: Consigli AS"}
+          heading={"Consigli AS"}
           subHeading={"Software Developer."}
           fromDate={"10.2022"}
           toDate={"Present"}

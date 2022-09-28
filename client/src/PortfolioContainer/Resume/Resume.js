@@ -79,7 +79,7 @@ const Resume = (props) => {
     { skill: "SQL" },
     { skill: "Angular" },
     { skill: "HTML and SCSS" },
-    { skill: "Mongo Db" },
+    { skill: "TypeScript" },
     { skill: "React Native" },
     { skill: "Docker" },
     { skill: "Git" },
@@ -116,10 +116,25 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
+          heading={"Name: Consigli AS"}
+          subHeading={"Software Developer."}
+          fromDate={"10.2022"}
+          toDate={"Present"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+            ◉ Optimizing the user experience, Using HTML, React, Angular and CSS to bring concepts to life
+          </span>
+          <br />
+        </div>
+      </div>
+
+      <div className="experience-container">
+        <ResumeHeading
           heading={"Gestalt Robotics Berlin"}
           subHeading={"Software Engineer."}
           fromDate={"02.2022"}
-          toDate={"Present"}
+          toDate={"07.2022"}
         />
         <div className="experience-description">
           <span className="resume-description-text">

@@ -67,8 +67,8 @@ const Resume = (props) => {
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
-    { label: "Case Study", logoSrc: "projects.svg" }, 
-    /*{ label: "Education", logoSrc: "programming-skills.svg" },*/
+    { label: "Case Study", logoSrc: "projects.svg" },
+    // { label: "Education", logoSrc: "programming-skills.svg" },
   ];
 
   //here we have
@@ -116,14 +116,15 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Consigli AS"}
+          heading={"Consigli AS Oslo"}
           subHeading={"Software Developer."}
           fromDate={"10.2022"}
           toDate={"Present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            ◉ Optimizing the user experience, Using HTML, React, Angular and CSS to bring concepts to life
+            ◉ Optimizing the user experience, Using HTML, React, Angular and CSS
+            to bring concepts to life
           </span>
           <br />
         </div>
@@ -134,11 +135,12 @@ const Resume = (props) => {
           heading={"Gestalt Robotics Berlin"}
           subHeading={"Software Engineer."}
           fromDate={"02.2022"}
-          toDate={"07.2022"}
+          toDate={"08.2022"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-          ◉ Development, integration and testing of users interfaces for software in industrial applications
+            ◉ Development, integration and testing of users interfaces for
+            software in industrial applications
           </span>
           <br />
         </div>
@@ -153,11 +155,13 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-          ◉ Help real estate customers buy, rent or solve daily problems with their property
+            ◉ Help real estate customers buy, rent or solve daily problems with
+            their property
           </span>
           <br />
           <span className="resume-description-text">
-          ◉ Helped in handling workflow as we progress on the development of applications
+            ◉ Helped in handling workflow as we progress on the development of
+            applications
           </span>
           <br />
         </div>
@@ -221,21 +225,39 @@ const Resume = (props) => {
     /* CaseStudy */
     <div className="resume-screen-container" key="CaseStudy">
       <div>
-      <img src="/Angolar.png" alt="img" style= {{
-              height: "18rem", width: "100%", 
-            }}/> 
-        </div>
-        <a href="/casestudy">
+        <img
+          src="/Angolar.png"
+          alt="img"
+          style={{
+            height: "18rem",
+            width: "100%",
+          }}
+        />
+      </div>
+      <a href="/casestudy">
         <p align="center">
-            <button className="big-btn" style= {{
-                   width: "90%", color: "#E91E63"
-                }}>CLICK TO OPEN CASE STUDY</button>
-            </p>
-        </a>  
-    </div>, 
+          <button
+            className="big-btn"
+            style={{
+              width: "90%",
+              color: "#E91E63",
+            }}
+          >
+            CLICK TO OPEN CASE STUDY
+          </button>
+        </p>
+      </a>
+    </div>,
 
     /* EDUCATION */
     <div className="resume-screen-container" key="education">
+      <ResumeHeading
+        heading={"Ludwigshafen University of Business and Society Germany"}
+        subHeading={"MBA, International Business Management"}
+        fromDate={"02.2021"}
+        toDate={"1.2023"}
+      />
+
       <ResumeHeading
         heading={"Careerfoundry"}
         subHeading={"Bootcamp"}

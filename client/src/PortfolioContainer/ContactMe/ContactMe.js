@@ -117,8 +117,7 @@ export default function ContactMe(props) {
           </form>
         </div>
       </div>
-      
-      
+
       <footer className="footer">
         <div className="col2">
           <div className="social-media">
@@ -133,9 +132,16 @@ export default function ContactMe(props) {
             </a>
           </div>
           <div>
-          <p> <i className="fa fa-copyright" aria-hidden="true"></i> {myName} {currentDate.getFullYear()} </p>
+            <p>
+              {" "}
+              <i className="fa fa-copyright" aria-hidden="true"></i> {myName}{" "}
+              {currentDate.getFullYear()}{" "}
+            </p>
           </div>
-          <span>All rights reserved.</span> | <span><a href="/impressum">Impressum</a></span>
+          <span>All rights reserved.</span> |{" "}
+          <span>
+            <a href="/impressum">Impressum</a>
+          </span>
         </div>
       </footer>
       <Footer />

@@ -102,17 +102,6 @@ const Resume = (props) => {
       subHeading: "Tech Stack: Angular, Node.js, Angular Materials, GitHub",
     },
     {
-      link: "https://ambabasly.github.io/meet2/",
-      title: "Meet App",
-      description:
-        "This app uses the Google Calendar API to fetch upcoming events and it is built with a serverless, (PWA) with React using (TDD) technique.",
-      subHeading:
-        "Tech Stack: React, Google OAuth2, Amazon Lambda for hosting, Enzyme for code testing",
-    },
-  ];
-
-  const projectsDetailsContd = [
-    {
       link: "https://myflixmovieapp.netlify.app/",
       title: "React Movie App (myFlix)",
       description:
@@ -120,13 +109,23 @@ const Resume = (props) => {
       subHeading:
         "Tech Stack: React, Redux, CSS, JavaScript, netlify, Axios, Boootstrap",
     },
+    // {
+    //   link: "https://ambabasly.github.io/meet2/",
+    //   title: "Meet App",
+    //   description:
+    //     "This app uses the Google Calendar API to fetch upcoming events and it is built with a serverless, (PWA) with React using (TDD) technique.",
+    //   subHeading:
+    //     "Tech Stack: React, Google OAuth2, Amazon Lambda for hosting, Enzyme for code testing",
+    // },
+  ];
+
+  const projectsDetailsContd = [
     {
-      link: "http://my-flixdbapp.herokuapp.com/documentation.html",
-      title: "Database App (myFlix)",
+      link: "https://ambabasly.github.io/Pokemon-app/",
+      title: "JavaScript App Pokédex",
       description:
-        "Server-side component of a 'movies' web application, the web application provide users with access to information about various movies, directors, and genres.",
-      subHeading:
-        "Tech Stack: Node.js, Express, MongoDB, JavaScript, Heroku, Postman",
+        "Pokemon app that lists a variety of Pokemon along with their individual attributes pulling info directly from an ext API.",
+      subHeading: "Tech Stack: HTML, CSS, JavaScript, Boootstrap",
     },
     {
       link: "https://www.youtube.com/watch?v=cI2rUnXU8R0",
@@ -136,11 +135,12 @@ const Resume = (props) => {
       subHeading: "Tech Stack: React Native, Gifted Chat, Firebase, Expo",
     },
     {
-      link: "https://ambabasly.github.io/Pokemon-app/",
-      title: "JavaScript App Pokédex",
+      link: "http://my-flixdbapp.herokuapp.com/documentation.html",
+      title: "Database App (myFlix)",
       description:
-        "Pokemon app that lists a variety of Pokemon along with their individual attributes pulling info directly from an ext API.",
-      subHeading: "Tech Stack: HTML, CSS, JavaScript, Boootstrap",
+        "Server-side component of a 'movies' web application, the web application provide users with access to information about various movies, directors, and genres.",
+      subHeading:
+        "Tech Stack: Node.js, Express, MongoDB, JavaScript, Heroku, Postman",
     },
   ];
 

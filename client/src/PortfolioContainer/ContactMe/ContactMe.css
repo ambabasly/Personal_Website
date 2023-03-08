@@ -3,7 +3,7 @@
   margin: 100px 0 -450px 0;
 }
 
-.central-form {
+.centact-form {
   max-width: 1100px;
   padding: 10px;
   display: flex;
@@ -15,7 +15,7 @@
   background-color: black;
 }
 
-.central-form h2 {
+.centact-form h2 {
   color: #fff;
   font-family: "Poppins Bold";
   letter-spacing: 0.2rem;
@@ -45,7 +45,7 @@
   opacity: 0.5;
 }
 
-.central-form form {
+.centact-form form {
   width: auto;
   box-shadow: 0 0 2px 1px white;
   display: flex;
@@ -154,7 +154,7 @@ button .load img {
   }
 }
 @media screen and (max-width: 414px) {
-  .central-form h2 {
+  .centact-form h2 {
     font-size: 16px;
   }
 }

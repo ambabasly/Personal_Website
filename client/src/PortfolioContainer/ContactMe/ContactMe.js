@@ -90,16 +90,19 @@ export default function ContactMe(props) {
             <h4>Send Your Email Here!</h4>
             <img src={imgBack} alt="not found" />
           </div>
-          <form onSubmit={submitForm}>
+          <form
+            action="https://getform.io/f/a74dfb5d-5267-4b1b-bb30-2a0335c22857"
+            method="POST"
+          >
             <p>{banner}</p>
             <label htmlFor="name">Name</label>
-            <input type="text" onChange={handleName} value={name} />
+            <input type="text" name="Name" />
 
             <label htmlFor="email">Email</label>
-            <input type="email" onChange={handleEmail} value={email} />
+            <input type="email" name="email" />
 
             <label htmlFor="message">Message</label>
-            <textarea type="text" onChange={handleMessage} value={message} />
+            <textarea type="text" name="Message" />
 
             <div className="send-btn">
               <button type="submit">

@@ -83,6 +83,7 @@ const Resume = (props) => {
     { skill: "React Native" },
     { skill: "Docker" },
     { skill: "Git" },
+    { skill: "CMS" },
   ];
 
   const projectsDetails = [
@@ -149,9 +150,9 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Consigli AS Oslo"}
-          subHeading={"Software Developer."}
-          fromDate={"10.2022"}
+          heading={"Roots 48 GmbH Duisburg"}
+          subHeading={"Web Developer."}
+          fromDate={"03.2023"}
           toDate={"Present"}
         />
         {/* <div className="experience-description">
